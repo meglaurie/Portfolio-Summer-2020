@@ -14,6 +14,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import './App.scss';
 import NavBar from './NavBar';
 
+
 function App() {
   return (
     <Router>
