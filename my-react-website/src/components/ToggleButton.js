@@ -1,24 +1,27 @@
 import React, { Component } from "react";
 
 export default class ToggleButton extends Component{
+
   state = {
-    darkmode: false,
+    active: true,
   }
 
-  toggle = () => {
-    document.body.classList.add('darkmode');
-    // this.setState({ darkmode: true });
-  }
-
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        {
-          document.body.classList.remove('darkmode')
-          // this.setState( darkmode: false )
-        }
-        <button onClick={this.toggle}>Show/Hide</button>
+
+        <div className="col-sm-4 col-sm-offset-4">
+          <div
+            className={ this.state.active ? "square switch-on" : "square switch-off" }
+            onClick={() => this.setState({active: !this.state.active})}>
+            { this.state.active ? 'Day' : 'Night' }
+          </div>
+        </div>
+        <div className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
+          <h1 className="title-txt">Megan Laurie</h1>
+          <h2 className="sub-title">Front-end Developer and Designer</h2>
+        </div>
       </div>
-    )
+    );
   }
 }
