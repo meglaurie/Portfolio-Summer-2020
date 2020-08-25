@@ -14,6 +14,12 @@ body {
   text-align: center;
 }
 
+.dkNav{
+  color: #bd2453;
+}
+.ltNav{
+  color: #000;
+}
 // Night Day Styles
 .square {
   width: 100px;
@@ -26,7 +32,9 @@ body {
 }
 .switch-off {
   background-color: #bd2453;
-  box-shadow: 0px 0px 35px 2px #e154b4;
+  -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
+  -moz-animation: btnGlow 3s ease-in-out infinite alternate;
+  animation: btnGlow 3s ease-in-out infinite alternate;
 }
 .switch-on {
   background-color: #000;
@@ -42,25 +50,47 @@ body {
 }
 .light-off {
   background-color: black;
-  color: #bd2453;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  // color: #bd2453;
+  color: #fff;
 }
+
 
 .light-on {
   background-color: white;
   color: black;
 }
 
- .glow {
-  font-size: 80px;
+.textGlow{
   color: #bd2453;
-  text-align: center;
-
+  -webkit-animation: textGlow 3s ease-in-out infinite alternate;
+  -moz-animation: textGlow 3s ease-in-out infinite alternate;
+  animation: textGlow 3s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@-webkit-keyframes textGlow {
+  from {
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #f696e0,
+    0 0 40px #f77cd6,
+    0 0 50px #e154b4,
+    0 0 60px #db4292,
+    0 0 70px #bd2453;
+  }
+  to {
+    text-shadow:
+    0 0 20px #fff,
+    0 0 30px #ff4da6,
+    0 0 40px #ff4da6,
+    0 0 50px #ff4da6,
+    0 0 60px #ff4da6,
+    0 0 70px #ff4da6,
+    0 0 80px #ff4da6;
+  }
+}
+
+@-webkit-keyframes btnGlow {
   0%{
     background-color: #fff;
   }
@@ -81,6 +111,11 @@ body {
   }
 }
 
+// Projects Page
+.projectImg{
+  width: 300px;
+  height: 300px;
+}
 
 button {
   padding: 16px;
@@ -97,12 +132,11 @@ h3, h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
-  text-align: center;
+  text-align: right;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: transparent;
 }
 
 nav ul {

@@ -6,6 +6,7 @@ const ProjectList = ({ projects }) => (
   {projects.map((projects, key) => (
     <Link key={key} to={`/projects/${projects.name}`}>
       <h3>{projects.title}</h3>
+      <img src={projects.image}/>
       <p>{projects.content[0].substring(0,150)}...</p>
     </Link>
 

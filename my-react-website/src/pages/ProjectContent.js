@@ -2,6 +2,7 @@ const projects = [
     {
         name: 'learn-react',
         title: 'The Fastest Way to Learn React',
+        image: '../imgs/hellHere.png',
         content: [
             `Welcome! Today we're going to be talking about the fastest way to
             learn React. We'll be discussing some topics such as proin congue

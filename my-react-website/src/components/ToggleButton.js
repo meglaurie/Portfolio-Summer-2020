@@ -6,6 +6,7 @@ export default class ToggleButton extends Component{
     active: true,
   }
 
+
   render() {
     return (
       <div>
@@ -18,8 +19,8 @@ export default class ToggleButton extends Component{
           </div>
         </div>
         <div className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
-          <h1 className="title-txt">Megan Laurie</h1>
-          <h2 className="sub-title">Front-end Developer and Designer</h2>
+          <h1 className={ this.state.active? "title-txt": "title-txt textGlow" }>Megan Laurie</h1>
+          <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
         </div>
       </div>
     );

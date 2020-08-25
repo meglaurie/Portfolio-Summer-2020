@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import ToggleButton from './components/ToggleButton';
+
 
 const NavBar = () => (
-  <nav>
+  <nav className="">
     <ul>
       <li>
         <Link to="/">Home</Link>
