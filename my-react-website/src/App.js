@@ -8,7 +8,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArchivePage from './pages/ArchivePage';
 import ProjectsPage from './pages/ProjectsPage';
-import ProjectListPage from './pages/ProjectListPage'
+import ProjectListPage from './pages/ProjectListPage';
+import DesignProjectListPage from './pages/DesignProjectListPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import './App.scss';
@@ -27,6 +28,7 @@ function App() {
             <Route path="/archive" component ={ArchivePage}/>
             <Route path="/projects/:name" component ={ProjectsPage}/>
             <Route path="/project-list" component={ProjectListPage} />
+            <Route path="/design-project-list" component={DesignProjectListPage} />
             <Route path="/contact" component ={ContactPage}/>
             <Route component={NotFoundPage} />
           </Switch>

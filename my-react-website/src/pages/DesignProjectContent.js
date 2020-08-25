@@ -1,4 +1,4 @@
-const projects = [
+const designProjects = [
     {
         name: 'learn-react',
         title: 'The Fastest Way to Learn React',
@@ -75,4 +75,4 @@ const projects = [
     },
 ];
 
-export default projects;
+export default designProjects;
