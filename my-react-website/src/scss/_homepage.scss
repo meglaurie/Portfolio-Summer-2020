@@ -1,0 +1,107 @@
+// Home Page Styles
+.title-txt{
+  margin-top: 20%;
+  font-size: 60px;
+  text-align: center;
+}
+.sub-title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.dkNav{
+  color: #bd2453;
+}
+.ltNav{
+  color: #000;
+}
+// Night Day Styles
+.square {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  margin: 55% auto;
+  padding-top: 30px;
+  background-color: lightgray;
+  color: white;
+}
+.switch-off {
+  background-color: #bd2453;
+  -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
+  -moz-animation: btnGlow 3s ease-in-out infinite alternate;
+  animation: btnGlow 3s ease-in-out infinite alternate;
+}
+.switch-on {
+  background-color: #000;
+}
+.bg-light {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  transition: background-color .5s ease;
+}
+.light-off {
+  background-color: black;
+  // color: #bd2453;
+  color: #fff;
+}
+
+
+.light-on {
+  background-color: white;
+  color: black;
+}
+
+.textGlow{
+  color: #bd2453;
+  -webkit-animation: textGlow 3s ease-in-out infinite alternate;
+  -moz-animation: textGlow 3s ease-in-out infinite alternate;
+  animation: textGlow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes textGlow {
+  from {
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #f696e0,
+    0 0 40px #f77cd6,
+    0 0 50px #e154b4,
+    0 0 60px #db4292,
+    0 0 70px #bd2453;
+  }
+  to {
+    text-shadow:
+    0 0 20px #fff,
+    0 0 30px #ff4da6,
+    0 0 40px #ff4da6,
+    0 0 50px #ff4da6,
+    0 0 60px #ff4da6,
+    0 0 70px #ff4da6,
+    0 0 80px #ff4da6;
+  }
+}
+
+@-webkit-keyframes btnGlow {
+  0%{
+    background-color: #fff;
+  }
+  20%{
+    background-color: #f696e0;
+  }
+  40%{
+    background-color: #f77cd6;
+  }
+  60%{
+    background-color: #e154b4;
+  }
+  80%{
+    background-color: #db4292;
+  }
+  100%{
+    background-color: #bd2453;
+  }
+}

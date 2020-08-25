@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import ProjectContent from './ProjectContent';
-import ProjectList from '../components/ProjectList';
-import CommentsList from '../components/CommentsList';
-import UpvotesSection from '../components/UpvotesSection';
-import AddCommentForm from '../components/AddCommentForm';
 import NotFoundPage from './NotFoundPage';
 
 
@@ -26,20 +22,15 @@ const ProjectsPage = ({ match }) => {
 
   if(!project) return <NotFoundPage />
 
-  const otherProjects = ProjectContent.filter(project => project.name !== name);
 
   return (
     < >
       <h1>{project.title}</h1>
 
-
-
       {project.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-    
-      <h3>Other Projects:</h3>
-      <ProjectList projects={otherProjects} />
+
     </>
   );
 }
