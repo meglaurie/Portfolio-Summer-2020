@@ -111,6 +111,14 @@ body {
   }
 }
 
+// About page
+.aboutImg{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
 // Projects Page
 .projectImg{
   width: 300px;
@@ -137,6 +145,7 @@ nav {
   top: 0;
   width: 100%;
   background: transparent;
+  // color: #db4292;
 }
 
 nav ul {

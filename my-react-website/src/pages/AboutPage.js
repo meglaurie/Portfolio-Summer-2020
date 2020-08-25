@@ -2,10 +2,34 @@ import React from 'react';
 
 const AboutPage = () => (
   <React.Fragment>
-    <h1>About me!</h1>
-    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
-    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+    <h1>Hello World!</h1>
+    <img className="aboutImg" src={require('../imgs/photo.jpg')}/>
+    <p>
+    I’m Megan Laurie.
+
+    I design and build things on the internet.
+
+    I am a Developer, Designer, and Illustrator.
+
+    I create user friendly websites that something something something…
+
+    Bridge the gap between development and design*
+
+    I have experience with HTML5.1, CSS3, React.js, SASS/Less/PostCSS, Photoshop, Illustrator, After Effects*, Sketch, Node.js, Bootstrap V#?, NPM/Yarn/Bower, Webpack/Gulp/Grunt, Wordpress, RWD/W3C/ARIA/WCAG, GIT/CVS, REST APIs,
+
+    I am currently seeking new opportunities in Frontend and UI Development.
+
+    Available for hire on a full-time basis.
+
+    I live and work in a vibrant neighbourhood in downtown Calgary, AB.
+
+    I love a good bubble tea, reading in my hammock, working in my garden, and doing puzzles.
+
+    I am making a new portfolio to demonstrate some new skills I have learned in lock down. *
+
+    Check out my GitHub, Codepen, and Dribble to see some of my work.
+
+    </p>
   </React.Fragment>
 
 );

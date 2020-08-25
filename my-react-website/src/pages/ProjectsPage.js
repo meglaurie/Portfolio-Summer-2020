@@ -32,13 +32,12 @@ const ProjectsPage = ({ match }) => {
     < >
       <h1>{project.title}</h1>
 
-      <UpvotesSection projectName = { name } upvotes={projectInfo.upvotes} setProjectInfo={setProjectInfo}/>
+
 
       {project.content.map((paragraph, key) => (
         <p key={key}>{paragraph}</p>
       ))}
-      <CommentsList comments ={projectInfo.comments} />
-      <AddCommentForm projectName ={name} setProjectInfo={setProjectInfo}/>
+    
       <h3>Other Projects:</h3>
       <ProjectList projects={otherProjects} />
     </>
