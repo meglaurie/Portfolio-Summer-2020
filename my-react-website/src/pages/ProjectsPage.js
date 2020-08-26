@@ -9,7 +9,7 @@ const ProjectsPage = ({ match }) => {
   const project = ProjectContent.find(project => project.name === name);
 
 // Delete
-  const [projectInfo, setProjectInfo] = useState({upvotes: 0, comments:[] });
+  const [setProjectInfo] = useState({upvotes: 0, comments:[] });
   useEffect(()=>{
     const fetchData = async () => {
       const result = await fetch (`/api/projects/${name}`);
