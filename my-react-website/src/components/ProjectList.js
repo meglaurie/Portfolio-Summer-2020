@@ -8,7 +8,7 @@ const ProjectList = ({ projects }) => (
 
         <div className="grid-item">
           <h3>{projects.title}</h3>
-          <img className="projectImg" src={projects.image} />
+          <img className="projectImg" src={projects.image} alt={projects.alt}/>
           <p>{projects.content[0].substring(0,150)}...</p>
         </div>
 

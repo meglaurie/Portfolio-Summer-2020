@@ -3,7 +3,7 @@ import React from 'react';
 const AboutPage = () => (
   <React.Fragment>
     <h1>Hello World!</h1>
-    <img className="aboutImg" src={require('../imgs/photo.jpg')}/>
+    <img className="aboutImg" src={require('../imgs/photo.jpg')} alt="profile of me"/>
     <p>
     I’m Megan Laurie.
 

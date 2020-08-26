@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ProjectContent from './ProjectContent';
 import NotFoundPage from './NotFoundPage';
 
@@ -9,16 +9,7 @@ const ProjectsPage = ({ match }) => {
   const project = ProjectContent.find(project => project.name === name);
 
 // Delete
-  const [setProjectInfo] = useState({upvotes: 0, comments:[] });
-  useEffect(()=>{
-    const fetchData = async () => {
-      const result = await fetch (`/api/projects/${name}`);
-      const body = await result.json();
-      console.log(body);
-      setProjectInfo(body);
-    }
-    fetchData();
-  }, [name]);
+
 
   if(!project) return <NotFoundPage />
 
