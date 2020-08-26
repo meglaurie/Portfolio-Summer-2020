@@ -56,10 +56,16 @@
 }
 
 .textGlow{
-  color: #bd2453;
-  -webkit-animation: textGlow 3s ease-in-out infinite alternate;
-  -moz-animation: textGlow 3s ease-in-out infinite alternate;
-  animation: textGlow 3s ease-in-out infinite alternate;
+  color: #fff;
+  text-shadow:
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 30px #f696e0,
+  0 0 40px #f77cd6,
+  0 0 50px #e154b4,
+  0 0 60px #db4292,
+  0 0 70px #bd2453;
+  animation: textGlow 1s ease-in-out infinite;
 }
 
 @-webkit-keyframes textGlow {
