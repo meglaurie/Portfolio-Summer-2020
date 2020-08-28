@@ -1,4 +1,11 @@
 import React from 'react';
+import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { faCodepen } from '@fortawesome/free-brands-svg-icons';
+import { faDribbble } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const AboutPage = () => (
   <React.Fragment>
@@ -30,6 +37,11 @@ const AboutPage = () => (
     Check out my GitHub, Codepen, and Dribble to see some of my work.
 
     </p>
+    <a target="_blank" href=""><FontAwesomeIcon icon={faGithubAlt} /></a>
+    <a target="_blank" href=""><FontAwesomeIcon icon={faCodepen} /></a>
+    <a target="_blank" href=""><FontAwesomeIcon icon={faDribbble} /></a>
+    <a target="_blank" href=""><FontAwesomeIcon icon={faLinkedin} /></a>
+    <a target="_blank" href=""><FontAwesomeIcon icon={faEnvelope} /></a>
   </React.Fragment>
 
 );
