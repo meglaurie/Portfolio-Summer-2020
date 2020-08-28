@@ -1,11 +1,11 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
 button {
   padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   font-size: 16px;
   background-color: black;
   color: white;
@@ -14,12 +14,56 @@ button {
 }
 
 h3, h4 {
+  font-family: 'Lobster', cursive;
   margin-bottom: 0;
 }
 
+p{
+
+}
 
 #page-body {
   max-width: 700px;
   margin: auto;
   padding-top: 64px;
+}
+
+// icons
+.projectImg{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+
+}
+.project-title{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.project-desc{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.project-icon{
+
+}
+.fa-icon{
+  margin: 10px;
+  left: -8px;
+  position: relative;
+}
+
+.page-title{
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
 }
