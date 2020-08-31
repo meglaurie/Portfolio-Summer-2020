@@ -5,7 +5,7 @@ const designProjects = [
         image: require('../imgs/BubbleTeaIcons-FullSet.jpg'),
         alt: 'alt-text',
         content: [
-            `Made with Sketch`,
+            `Made with Sketch`, 
         ]
     },    {
         name: 'Project 2',

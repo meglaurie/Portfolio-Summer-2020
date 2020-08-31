@@ -1,7 +1,7 @@
 const archive = [
     {
         name: 'Project 1',
-        title: 'Pokemon API App',
+        title: '2017',
         image: require('../imgs/hellHere.png'),
         alt: 'alt-text',
         content: [
@@ -9,7 +9,15 @@ const archive = [
         ]
     },    {
         name: 'Project 2',
-        title: 'Coming Soon!',
+        title: '2018',
+        image: require('../imgs/hellHere.png'),
+        alt: 'alt-text',
+        content: [
+            `Description`,
+        ]
+    }, {
+        name: 'Project 2',
+        title: '2019',
         image: require('../imgs/hellHere.png'),
         alt: 'alt-text',
         content: [

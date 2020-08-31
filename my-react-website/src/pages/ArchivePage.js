@@ -1,26 +1,16 @@
 import React from 'react';
+import ArchiveList from '../components/ArchiveList';
 import ArchiveContent from './ArchiveContent';
-import NotFoundPage from './NotFoundPage';
-
-const ArchivePage = ({match}) => {
-
-  const name = match.params.name;
-  const archive = ArchiveContent.find(archive => archive.name === name);
 
 
-  if(!archive) return <NotFoundPage />
+const ArchivePage = () => (
+  <>
+  <h1 className="page-title">Archive</h1>
+  <div className="grid-container">
+    <ArchiveList archive={ArchiveContent} />
+  </div>
+  </>
+);
 
-  return (
-    < >
-      <h1>{archive.title}</h1>
-
-      {archive.content.map((paragraph, key) => (
-        <p key={key}>{paragraph}</p>
-      ))}
-
-    </>
-  );
-
-}
 
 export default ArchivePage;
