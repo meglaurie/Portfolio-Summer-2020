@@ -6,7 +6,7 @@ import ArchiveContent from './ArchiveContent';
 const ArchivePage = () => (
   <>
   <h1 className="page-title">Archive</h1>
-  <div className="grid-container">
+  <div className="arch-grid-container">
     <ArchiveList archive={ArchiveContent} />
   </div>
   </>
