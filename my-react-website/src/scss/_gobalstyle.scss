@@ -26,12 +26,14 @@ p{
   max-width: 950px;
   height: 100vh;
   margin: auto;
+  padding: 25px;
   padding-top: 64px;
 }
 
 .page-title{
   font-family: 'Lobster', cursive;
   font-size: 2em;
+
 }
 
 .projectImg{
@@ -42,12 +44,12 @@ p{
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-gap: 1rem;
 }
 
 .grid-item {
-  padding: 20px;
+
 
 }
 .project-title{
@@ -59,6 +61,7 @@ p{
 .project-desc{
   margin-bottom: 20px;
   text-align: left;
+  height: auto;
 }
 .project-icon{
   font-size: 25px;

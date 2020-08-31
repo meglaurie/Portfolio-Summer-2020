@@ -7,7 +7,7 @@ const designProjects = [
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13942532-BubbleTea-Icon-Set',
         content: [
-            `Made with Sketch`,
+            `PNG and SVG icon set made using Sketch. There are 12 icons including Matcha Smoothie, Taro with Readbean, Panda Milk Foam Tea, Matcha Mango Pearl Tea, Strawberry Taro Milk, Mango Pearl Tea Latte, Strawberry Smoothie, and Milk Tea with Pearls. Available for free download.`,
         ]
     },    {
         name: 'Project 2',
