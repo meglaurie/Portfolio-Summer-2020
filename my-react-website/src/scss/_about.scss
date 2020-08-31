@@ -8,6 +8,25 @@
   border-bottom-left-radius: 50% 50%;
   object-fit: cover;
   display: block;
+  margin-top: 75px;
+  margin-bottom: 75px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon-container{
+  margin: 75px;
+  text-align: center;
+}
+
+.about-icon{
+  font-size: 40px;
+  padding: 10px;
+
+  color:#000;
+  margin: 0 auto;
+}
+
+.about-icon:hover{
+  color: #bd2453;
 }

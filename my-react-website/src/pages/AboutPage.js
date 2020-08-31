@@ -26,11 +26,13 @@ const AboutPage = () => (
     <p>
       Check out my GitHub, Codepen, and Dribble to see some of my work.
     </p>
-    <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/meglaurie"><FontAwesomeIcon icon={faGithubAlt} /></a>
-    <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://codepen.io/mlaur568"><FontAwesomeIcon icon={faCodepen} /></a>
-    <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/mlaurie"><FontAwesomeIcon icon={faDribbble} /></a>
-    <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-laurie"><FontAwesomeIcon icon={faLinkedin} /></a>
-    <a className="fa-icon" target="_blank" rel="noopener noreferrer" href="mailto:megan@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
+    <div className="icon-container">
+      <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/meglaurie"><FontAwesomeIcon icon={faGithubAlt} /></a>
+      <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://codepen.io/mlaur568"><FontAwesomeIcon icon={faCodepen} /></a>
+      <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/mlaurie"><FontAwesomeIcon icon={faDribbble} /></a>
+      <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-laurie"><FontAwesomeIcon icon={faLinkedin} /></a>
+      <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="mailto:megan@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
+    </div>
   </React.Fragment>
 
 );
