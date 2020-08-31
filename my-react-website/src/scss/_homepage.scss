@@ -10,10 +10,10 @@
 }
 
 .dkNav{
-  color: #bd2453;
+  color: $primary-text;
 }
 .ltNav{
-  color: #000;
+  color: $primary-text;
 }
 // Night Day Styles
 .square {
@@ -36,7 +36,7 @@
   0 0 40px #f77cd6,
   0 0 50px #e154b4,
   0 0 60px #db4292,
-  0 0 70px #bd2453;
+  0 0 70px $night-header-text;
   box-shadow: 0px 0px 55px 20px #f77cd6;
   -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
   -moz-animation: btnGlow 3s ease-in-out infinite alternate;
@@ -56,7 +56,6 @@
 }
 .light-off {
   background-color: black;
-  // color: #bd2453;
   color: #fff;
 }
 
@@ -75,7 +74,7 @@
   0 0 40px #f77cd6,
   0 0 50px #e154b4,
   0 0 60px #db4292,
-  0 0 70px #bd2453;
+  0 0 70px $night-header-text;
   animation: textGlow 1s ease-in-out infinite;
 }
 
@@ -88,7 +87,7 @@
     0 0 40px #f77cd6,
     0 0 50px #e154b4,
     0 0 60px #db4292,
-    0 0 70px #bd2453;
+    0 0 70px $night-header-text;
   }
   to {
     text-shadow:
@@ -98,7 +97,7 @@
     0 0 50px #ff4da6,
     0 0 60px #ff4da6,
     0 0 70px #ff4da6,
-    0 0 80px #ff4da6;
+    0 0 80px $night-header-text;
   }
 }
 
@@ -119,6 +118,6 @@
     background-color: #db4292;
   }
   100%{
-    background-color: #bd2453;
+    background-color: $night-header-text;
   }
 }
