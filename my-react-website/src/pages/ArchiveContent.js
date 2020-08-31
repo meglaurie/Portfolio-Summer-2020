@@ -4,6 +4,7 @@ const archive = [
         title: '2017',
         image: require('../imgs/Portfolio-2017.png'),
         alt: 'Pink and blue sunset over the mountains',
+        url: 'https://github.com/meglaurie/Student-Portfolio',
         content: [
             `Description`,
         ]
@@ -12,6 +13,7 @@ const archive = [
         title: '2018',
         image: require('../imgs/Portfolio-2018.png'),
         alt: 'Workspace with keyboard pen mouse etc',
+        url: 'https://github.com/meglaurie/Portfolio-website',
         content: [
             `Description`,
         ]
@@ -20,6 +22,7 @@ const archive = [
         title: '2019',
         image: require('../imgs/Portfolio-2019.png'),
         alt: 'Pink sky over backlit dark mountains',
+        url: 'https://github.com/meglaurie/2020-Portfolio-Website',
         content: [
             `Description`,
         ]

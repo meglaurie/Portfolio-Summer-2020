@@ -4,6 +4,7 @@ const projects = [
         title: 'Pokemon API App',
         image: require('../imgs/HelloThere.png'),
         alt: 'alt-text',
+        url: '',
         content: [
             `Description`,
         ]
@@ -12,6 +13,7 @@ const projects = [
         title: 'Coming Soon!',
         image: require('../imgs/HelloThere.png'),
         alt: 'Coming soon',
+        url: '',
         content: [
             `Description`,
         ]

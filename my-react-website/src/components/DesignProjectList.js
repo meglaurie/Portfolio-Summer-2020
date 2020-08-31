@@ -12,8 +12,8 @@ const DesignProjectList = ({ designProjects }) => (
         <h3 className="project-title">{designProjects.title}</h3>
         <img className="projectImg" src={designProjects.image} alt={designProjects.alt}/>
         <p className="project-desc">{designProjects.content[0].substring(0,150)}...</p>
-        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" href="https://codepen.io/mlaur568"><FontAwesomeIcon icon={faCodepen} /></a>
-        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/mlaurie"><FontAwesomeIcon icon={faDribbble} /></a>
+        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" href={designProjects.codepen}><FontAwesomeIcon icon={faCodepen} /></a>
+        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" href={designProjects.dribbble}><FontAwesomeIcon icon={faDribbble} /></a>
       </div>
     </div>
 
