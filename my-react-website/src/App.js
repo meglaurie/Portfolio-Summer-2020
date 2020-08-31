@@ -10,7 +10,6 @@ import ArchivePage from './pages/ArchivePage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectListPage from './pages/ProjectListPage';
 import DesignProjectListPage from './pages/DesignProjectListPage';
-import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 import './App.scss';
 import NavBar from './NavBar';
@@ -29,7 +28,6 @@ function App() {
             <Route path="/projects/:name" component ={ProjectsPage}/>
             <Route path="/project-list" component={ProjectListPage} />
             <Route path="/design-project-list" component={DesignProjectListPage} />
-            <Route path="/contact" component ={ContactPage}/>
             <Route component={NotFoundPage} />
           </Switch>
         </div>

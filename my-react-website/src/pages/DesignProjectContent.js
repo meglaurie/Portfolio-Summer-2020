@@ -22,7 +22,7 @@ const designProjects = [
     },     {
         name: 'Project 3',
         title: 'Hello There',
-        image: require('../imgs/HelloThere.png'),
+        image: require('../imgs/HelloThereBatmanReturns.gif'),
         alt: 'Hello There neon sign from Batman returns',
         codepen: 'https://codepen.io/mlaur568/pen/LYNGYjB',
         dribbble: 'https://dribbble.com/shots/14017708-Hello-There-Batman-Returns',

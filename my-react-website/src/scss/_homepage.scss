@@ -21,13 +21,13 @@
   height: 25px;
   padding: 15px;
   text-align: center;
-  margin: 40% auto;
+  margin: 35% auto;
   background-color: lightgray;
   color: white;
   border-radius: 20px 20px 20px 20px;
 }
 .switch-off {
-  background-color: #bd2453;
+  background-color: $night-header-text;
   color: #fff;
   text-shadow:
   0 0 10px #fff,
@@ -56,7 +56,10 @@
 }
 .light-off {
   background-color: black;
+  background-image: url('../imgs/joel-fulgencio-01fAtHwYqo0-unsplash.jpg');
   color: #fff;
+  width: 100vw;
+  height: 100vh;
 }
 
 
