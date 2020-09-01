@@ -9,8 +9,8 @@ const SideMenu = props => {
   return (
   <nav className={menuClasses}>
     <div>
-      <ul>
-        <li>
+      <ul className="mobile-ul">
+        <li className="mobile-li">
           <Link to="/">Home</Link>
         </li>
         <li>
