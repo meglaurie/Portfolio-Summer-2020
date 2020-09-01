@@ -2,7 +2,7 @@ const designProjects = [
     {
         name: 'Project 1',
         title: 'Bubble Tea Icon Set',
-        image: require('../imgs/BubbleTeaIcons-FullSet.jpg'),
+        image: require('../imgs/BubbleTea.png'),
         alt: 'Icon set with 12 different kinds of bubble tea.',
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13942532-BubbleTea-Icon-Set',

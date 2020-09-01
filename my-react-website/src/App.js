@@ -12,14 +12,40 @@ import ProjectListPage from './pages/ProjectListPage';
 import DesignProjectListPage from './pages/DesignProjectListPage';
 import NotFoundPage from './pages/NotFoundPage';
 import './App.scss';
-import NavBar from './NavBar';
+import NavBar from './components/NavBar';
+import SideMenu from './components/SideMenu/SideMenu';
+import BackDrop from './components/SideMenu/BackDrop';
 
 
-function App() {
+class App extends React.Component {
+  state = {
+    sideMenuOpen: false,
+  }
+
+  sideMenuToggleClickHandler = () => {
+    this.setState(prevSate => {
+      return { sideMenuOpen: !prevSate.sideMenuOpen}
+    })
+  }
+  backDropClickHandler = () => {
+    this.setState({sideMenuOpen: false})
+  }
+
+render(){
+  let backdrop = null;
+
+
+  if (this.state.sideMenuOpen){
+    backdrop = <BackDrop click={this.backDropClickHandler}/>
+
+  }
+
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <NavBar menuClickHandler = {this.sideMenuToggleClickHandler}/>
+        <SideMenu show={this.state.sideMenuOpen}/>
+        {backdrop}
         <div id="page-body">
           <Switch>
             <Route path="/"component ={HomePage} exact/>
@@ -31,9 +57,11 @@ function App() {
             <Route component={NotFoundPage} />
           </Switch>
         </div>
+
       </div>
     </Router>
   );
+  }
 }
 
 export default App;
