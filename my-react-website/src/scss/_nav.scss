@@ -72,15 +72,7 @@ nav li .desktop-li{
   z-index: 100;
 }
 
-@media only screen and (max-width: 640px){
-  .burger-btn{
-    display: block;
-  }
-  .desktop-nav{
-    display: none;
 
-  }
-}
 
 .side-menu{
   display: block;
@@ -109,4 +101,23 @@ nav li .desktop-li{
   right: 0;
   z-index: 98;
   transition: 0.3s ease-out;
+
+}
+
+@media only screen and (max-width: 640px){
+  .burger-btn{
+    display: block;
+  }
+  .desktop-nav{
+    display: none;
+
+  }
+}
+@media only screen and (min-width: 641px){
+  .side-menu{
+    display: none;
+  }
+  .back-drop{
+    display: none;
+  }
 }
