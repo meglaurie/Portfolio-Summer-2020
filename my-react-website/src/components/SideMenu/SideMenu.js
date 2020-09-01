@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const SideMenu = props => {
-  let menuClasses = ['side-menu'];
+  let menuClasses = 'side-menu';
   if (props.show) {
-    menuClasses = ['side-menu', 'open']
+    menuClasses = 'side-menu open';
   }
   return (
-  <nav className={menuClasses.join(' ')}>
+  <nav className={menuClasses}>
     <div>
       <ul>
         <li>

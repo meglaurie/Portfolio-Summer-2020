@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import NavToggleButton from './SideMenu/NavToggle';
 
 const NavBar = props => (
-  <nav>
+  <nav >
     <div>
       <NavToggleButton click={props.menuClickHandler}/>
     </div>
-    <div>
-      <ul>
+    <div className="desktop-nav">
+      <ul >
         <li>
           <Link to="/">Home</Link>
         </li>
