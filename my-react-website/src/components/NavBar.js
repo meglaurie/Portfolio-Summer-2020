@@ -8,20 +8,20 @@ const NavBar = props => (
       <NavToggleButton click={props.menuClickHandler}/>
     </div>
     <div className="desktop-nav">
-      <ul >
-        <li>
+      <ul className="desktop-ul">
+        <li className="desktop-li">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li className="desktop-li">
           <Link to="/project-list">Development</Link>
         </li>
-        <li>
+        <li className="desktop-li">
           <Link to="/design-project-list">Design</Link>
         </li>
-        <li>
+        <li className="desktop-li">
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className="desktop-li">
           <Link to="/archive">Archive</Link>
         </li>
       </ul>
