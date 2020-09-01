@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -17,7 +17,7 @@ import SideMenu from './components/SideMenu/SideMenu';
 import BackDrop from './components/SideMenu/BackDrop';
 
 
-class App extends React.Component {
+class App extends Component {
   state = {
     sideMenuOpen: false,
   }

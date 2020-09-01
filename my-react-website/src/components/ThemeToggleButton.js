@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 
-export default class ToggleButton extends Component{
+export default class ThemeToggleButton extends Component{
 
   state = {
     active: true,
   }
-
 
   render() {
     return (

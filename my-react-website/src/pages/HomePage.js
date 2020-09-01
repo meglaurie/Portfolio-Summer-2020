@@ -1,10 +1,10 @@
 import React from 'react';
-import ToggleButton from '../components/ToggleButton';
+import ThemeToggleButton from '../components/ThemeToggleButton';
 
 const HomePage = () => (
   <React.Fragment>
-    
-    <ToggleButton/>
+
+    <ThemeToggleButton/>
   </React.Fragment>
 
 );
