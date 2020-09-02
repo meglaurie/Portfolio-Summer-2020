@@ -17,6 +17,7 @@ import SideMenu from './components/SideMenu/SideMenu';
 import BackDrop from './components/SideMenu/BackDrop';
 
 
+
 class App extends Component {
   state = {
     sideMenuOpen: false,
@@ -56,6 +57,7 @@ render(){
             <Route path="/design-project-list" component={DesignProjectListPage} />
             <Route component={NotFoundPage} />
           </Switch>
+
         </div>
 
       </div>

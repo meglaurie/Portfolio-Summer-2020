@@ -6,7 +6,7 @@ const archive = [
         alt: 'Pink and blue sunset over the mountains',
         url: 'https://github.com/meglaurie/Student-Portfolio',
         content: [
-            `Description`,
+            `SAIT Student Portfolio`,
         ]
     },    {
         name: 'Project 2',
@@ -15,7 +15,7 @@ const archive = [
         alt: 'Workspace with keyboard pen mouse etc',
         url: 'https://github.com/meglaurie/Portfolio-website',
         content: [
-            `Description`,
+            `2018 Portfolio`,
         ]
     }, {
         name: 'Project 2',
@@ -24,7 +24,7 @@ const archive = [
         alt: 'Pink sky over backlit dark mountains',
         url: 'https://github.com/meglaurie/2020-Portfolio-Website',
         content: [
-            `Description`,
+            `2019 Portfolio`,
         ]
     },
 ];

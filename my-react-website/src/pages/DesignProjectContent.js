@@ -7,9 +7,19 @@ const designProjects = [
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13942532-BubbleTea-Icon-Set',
         content: [
-            `PNG and SVG icon set made using Sketch. There are 12 icons including Matcha Smoothie, Taro with Readbean, Panda Milk Foam Tea, Matcha Mango Pearl Tea, Strawberry Taro Milk, Mango Pearl Tea Latte, Strawberry Smoothie, and Milk Tea with Pearls. Available for free download.`,
+            `PNG and SVG icon set made using Sketch. Available for free download on Github.`,
         ]
-    },    {
+    },  {
+        name: 'Project 3',
+        title: 'Hello There',
+        image: require('../imgs/HelloThereBatmanReturns.gif'),
+        alt: 'Hello There neon sign from Batman returns',
+        codepen: 'https://codepen.io/mlaur568/pen/LYNGYjB',
+        dribbble: 'https://dribbble.com/shots/14017708-Hello-There-Batman-Returns',
+        content: [
+            `Neon sign inspired by Batman Returns. Made with HTML and CSS3`,
+        ]
+    },  {
         name: 'Project 2',
         title: 'CSS Luna',
         image: require('../imgs/Luna-CSS.png'),
@@ -20,17 +30,6 @@ const designProjects = [
             `Luna made with HTML and CSS`,
         ]
     },     {
-        name: 'Project 3',
-        title: 'Hello There',
-        image: require('../imgs/HelloThereBatmanReturns.gif'),
-        alt: 'Hello There neon sign from Batman returns',
-        codepen: 'https://codepen.io/mlaur568/pen/LYNGYjB',
-        dribbble: 'https://dribbble.com/shots/14017708-Hello-There-Batman-Returns',
-        content: [
-            `Made with HTML and CSS3`,
-        ]
-    },
-    {
         name: 'Project 4',
         title: 'Vector Workspace',
         image: require('../imgs/VectorWorkspace.png'),
@@ -38,7 +37,7 @@ const designProjects = [
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13956797-Office-Desk-Vector-Art',
         content: [
-            `Made with Sketch`,
+            `Vector graphic art created using sketch.`,
         ]
     },
 ];

@@ -5,6 +5,7 @@ const HomePage = () => (
   <React.Fragment>
 
     <ThemeToggleButton/>
+  
   </React.Fragment>
 
 );

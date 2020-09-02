@@ -1,3 +1,7 @@
+html{
+  min-height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -24,7 +28,7 @@ p{
 
 #page-body {
   max-width: 950px;
-  height: 100vh;
+  height: 100%;
   margin: auto;
   padding: 25px;
   padding-top: 64px;
@@ -33,7 +37,8 @@ p{
 .page-title{
   font-family: 'Lobster', cursive;
   font-size: 2em;
-
+  margin-bottom: 0px;
+  margin-left: 50px;
 }
 
 .projectImg{
@@ -43,14 +48,17 @@ p{
 }
 
 .grid-container {
+  height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   grid-gap: 1rem;
+  padding: 50px;
 }
 
 .grid-item {
-
-
+  height: 467px;
+  margin-top: 50px;
+  max-width: 400px;
 }
 .project-title{
   font-family: 'Lobster', cursive;
