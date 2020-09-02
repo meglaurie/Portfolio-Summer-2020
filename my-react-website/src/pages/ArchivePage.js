@@ -1,7 +1,7 @@
 import React from 'react';
 import ArchiveList from '../components/ArchiveList';
 import ArchiveContent from './ArchiveContent';
-
+import Footer from '../components/Footer';
 
 const ArchivePage = () => (
   <>
@@ -9,6 +9,7 @@ const ArchivePage = () => (
   <div className="arch-grid-container">
     <ArchiveList archive={ArchiveContent} />
   </div>
+  <Footer/>
   </>
 );
 

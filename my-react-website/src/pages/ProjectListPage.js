@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectList from '../components/ProjectList';
 import ProjectContent from './ProjectContent';
-
+import Footer from '../components/Footer';
 
 const ProjectListPage = () => (
   <>
@@ -9,6 +9,7 @@ const ProjectListPage = () => (
   <div className="grid-container">
     <ProjectList projects={ProjectContent} />
   </div>
+  <Footer/>
   </>
 );
 

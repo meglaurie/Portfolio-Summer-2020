@@ -17,7 +17,6 @@ import SideMenu from './components/SideMenu/SideMenu';
 import BackDrop from './components/SideMenu/BackDrop';
 
 
-
 class App extends Component {
   state = {
     sideMenuOpen: false,

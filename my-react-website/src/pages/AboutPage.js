@@ -5,7 +5,7 @@ import { faDribbble } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Footer from "../components/Footer";
 
 const AboutPage = () => (
   <React.Fragment>
@@ -36,6 +36,7 @@ const AboutPage = () => (
         <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-laurie"><FontAwesomeIcon icon={faLinkedin} /></a>
         <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="mailto:megan@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
     </section>
+    <Footer/>
   </React.Fragment>
 
 );

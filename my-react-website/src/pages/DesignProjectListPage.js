@@ -8,8 +8,8 @@ const DesignProjectListPage = () => (
   <h1 className="page-title">Design</h1>
   <div className="grid-container">
     <DesignProjectList designProjects={DesignProjectContent} />
-    <Footer/>
   </div>
+  <Footer/>
   </>
 );
 
