@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04052fec.chunk.css",
+    "main.js": "/static/js/main.9d76f55d.chunk.js",
+    "main.js.map": "/static/js/main.9d76f55d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
+    "static/js/2.6a56359f.chunk.js": "/static/js/2.6a56359f.chunk.js",
+    "static/js/2.6a56359f.chunk.js.map": "/static/js/2.6a56359f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0e3fead0d753f437e97e5575a78a2ce0.js": "/precache-manifest.0e3fead0d753f437e97e5575a78a2ce0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.04052fec.chunk.css.map": "/static/css/main.04052fec.chunk.css.map",
+    "static/js/2.6a56359f.chunk.js.LICENSE.txt": "/static/js/2.6a56359f.chunk.js.LICENSE.txt",
+    "static/media/BubbleTea.png": "/static/media/BubbleTea.47ef7f12.png",
+    "static/media/HelloThereBatmanReturns.gif": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif",
+    "static/media/Luna-CSS.png": "/static/media/Luna-CSS.7774cbf6.png",
+    "static/media/Portfolio-2017.png": "/static/media/Portfolio-2017.41038526.png",
+    "static/media/Portfolio-2018.png": "/static/media/Portfolio-2018.805616b5.png",
+    "static/media/Portfolio-2019.png": "/static/media/Portfolio-2019.996b0bb5.png",
+    "static/media/VectorWorkspace.png": "/static/media/VectorWorkspace.323538f3.png",
+    "static/media/photo.jpg": "/static/media/photo.45d1fae4.jpg",
+    "static/media/pokemon.png": "/static/media/pokemon.aeccf9e3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9f3608b.js",
+    "static/js/2.6a56359f.chunk.js",
+    "static/css/main.04052fec.chunk.css",
+    "static/js/main.9d76f55d.chunk.js"
+  ]
+}

@@ -6,15 +6,17 @@
 
 }
 .title-txt{
-  margin-top: 20%;
+  margin-top: 17%;
   font-size: 4em;
   text-align: center;
-    color: #db4292;
+  color: #db4292;
+  text-shadow: 2px 2px 4px #3b2a32;
 }
 .sub-title{
   font-size: 2em;
   text-align: center;
   color: #db4292;
+  text-shadow: 2px 2px 4px #3b2a32;
 }
 
 .dkNav{
@@ -50,7 +52,12 @@
   animation: btnGlow 3s ease-in-out infinite alternate;
 }
 .switch-on {
-  background-color: #000;
+  background-color: #db4292;
+  box-shadow: 2px 2px 4px #3b2a32;
+
+}
+.switch-on:hover {
+  background-color: #f77cd6;
 }
 .bg-light {
   position: absolute;

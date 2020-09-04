@@ -22,7 +22,7 @@ const archive = [
         title: '2019',
         image: require('../imgs/Portfolio-2019.png'),
         alt: 'Pink sky over backlit dark mountains',
-        url: 'https://github.com/meglaurie/2020-Portfolio-Website',
+        url: 'https://github.com/meglaurie/2019-Portfolio-Website',
         content: [
             `2019 Portfolio`,
         ]
