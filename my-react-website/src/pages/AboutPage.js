@@ -17,13 +17,10 @@ const AboutPage = () => (
         Hello World!
       </p>
       <p>
-        My name is Megan Laurie. I am a Developer, Designer, and Illustrator. I design and build things on the internet. I create user friendly websites that something something something…
+        My name is Megan Laurie. I am a Frontend Developer and Designer. I design and build things on the internet. I create user friendly websites and applications that are both functional and aesthetically pleasing.
       </p>
       <p>
-        I have experience with HTML5.1, CSS3, React.js, SASS/Less/PostCSS, Photoshop, Illustrator, After Effects*, Sketch, Node.js, Bootstrap V#?, NPM/Yarn/Bower, Webpack/Gulp/Grunt, Wordpress, RWD/W3C/ARIA/WCAG, GIT/CVS, REST APIs. I am currently seeking new opportunities in Frontend and UI Development. Available for hire on a full-time basis.
-      </p>
-      <p>
-        I live and work in a vibrant neighbourhood in downtown Calgary, AB. When I'm not working, I love a good bubble tea, reading in my hammock, working in my garden, and doing puzzles.
+        I have 3 years of experience working with Node.js, Bootstrap, NPM/Yarn/Bower, Webpack/Gulp/Grunt, Wordpress, RWD/W3C/ARIA/WCAG, GIT/CVS, REST APIs. My strongest skills include HTML5.1, CSS3, React.js, SASS/Less/PostCSS, Photoshop, Illustrator, Sketch. I thrive in roles that allow me to utilize both my design and development skills.  I am currently seeking new opportunities in the area of Frontend and UI Development.
       </p>
       <p>
         Check out my GitHub, Codepen, and Dribble to see some of my work.

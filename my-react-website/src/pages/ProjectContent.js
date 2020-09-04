@@ -6,7 +6,7 @@ const projects = [
         alt: 'alt-text',
         url: '',
         content: [
-            `Description`,
+            `This app is being built with React and the Poke API. It is not yet complete, but you can follow my progess on Github.`,
         ]
     },
 ];

@@ -3,15 +3,18 @@
 .home-container{
   height: auto;
   max-width:895px;
+
 }
 .title-txt{
   margin-top: 20%;
-  font-size: 60px;
+  font-size: 4em;
   text-align: center;
+    color: #db4292;
 }
 .sub-title{
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
+  color: #db4292;
 }
 
 .dkNav{
@@ -59,8 +62,8 @@
   transition: background-color .5s ease;
 }
 .light-off {
-  background-color: transparent;
-  background-image: url('../imgs/night.jpg');
+  background-color: black;
+  // background-image: url('../imgs/night.jpg');
   color: #fff;
   width: 100vw;
   height: 100vh;
@@ -73,7 +76,7 @@
 .light-on {
   background-color: white;
   color: black;
-  background-image: url('../imgs/day.jpg');
+  // background-image: url('../imgs/day.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
