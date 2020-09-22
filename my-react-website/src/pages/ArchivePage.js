@@ -5,13 +5,13 @@ import Footer from '../components/Footer';
 
 const ArchivePage = () => (
   <>
-  <div className="page">
+  <section className="page">
     <h1 className="page-title">Archive</h1>
     <div className="arch-grid-container">
       <ArchiveList archive={ArchiveContent} />
     </div>
     <Footer/>
-  </div>
+  </section>
   </>
 );
 

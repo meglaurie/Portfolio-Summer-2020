@@ -26,6 +26,7 @@ p{
 
 }
 
+// Page transition styles
 .page{
   position: absolute;
   top: 100px;
@@ -52,6 +53,7 @@ p{
     opacity: 0;
     transition: opacity 150ms linear;
 }
+// END 
 
 #page-body {
   max-width: 950px;

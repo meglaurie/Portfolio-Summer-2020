@@ -11,8 +11,8 @@ export default class ThemeToggleButton extends Component{
 
   render() {
     return (
-      <div className="home-container">
-        <div className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
+      <main className="home-container">
+        <section className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
           <h1 className={ this.state.active? "title-txt page-title": "title-txt page-title textGlow" }>Megan Laurie</h1>
           <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
           <div
@@ -21,9 +21,9 @@ export default class ThemeToggleButton extends Component{
             { this.state.active ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} /> }
           </div>
 
-        </div>
+        </section>
 
-      </div>
+      </main>
 
     );
   }
