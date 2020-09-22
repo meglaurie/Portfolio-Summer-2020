@@ -72,8 +72,6 @@ render(){
           </TransitionGroup>
 
       )}/>
-
-
       <Footer/>
       </div>
   </Router>

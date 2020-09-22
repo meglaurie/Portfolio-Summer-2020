@@ -11,7 +11,7 @@ export default class ThemeToggleButton extends Component{
 
   render() {
     return (
-      <main className="home-container">
+      <main className="home-container page">
         <section className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
           <h1 className={ this.state.active? "title-txt page-title": "title-txt page-title textGlow" }>Megan Laurie</h1>
           <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
