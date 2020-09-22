@@ -1,7 +1,6 @@
 import React from 'react';
 import DesignProjectList from '../components/DesignProjectList';
 import DesignProjectContent from './DesignProjectContent';
-import Footer from '../components/Footer';
 
 const DesignProjectListPage = () => (
   <>

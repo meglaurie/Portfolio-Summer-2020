@@ -5,7 +5,7 @@ import { faDribbble } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Footer from '../components/Footer';
+
 
 const AboutPage = () => (
   <React.Fragment>
