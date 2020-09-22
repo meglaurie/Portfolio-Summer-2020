@@ -15,6 +15,9 @@ import './App.scss';
 import NavBar from './components/NavBar';
 import SideMenu from './components/SideMenu/SideMenu';
 import BackDrop from './components/SideMenu/BackDrop';
+import {
+  TransitionGroup,
+  CSSTransition, } from 'react-transition-group';
 
 
 class App extends Component {
@@ -41,26 +44,38 @@ render(){
   }
 
   return (
-    <Router>
+  <Router>
       <div className="App">
-        <NavBar menuClickHandler = {this.sideMenuToggleClickHandler}/>
-        <SideMenu show={this.state.sideMenuOpen}/>
-        {backdrop}
-        <div id="page-body">
-          <Switch>
-            <Route path="/"component ={HomePage} exact/>
-            <Route path="/about" component ={AboutPage}/>
-            <Route path="/archive" component ={ArchivePage}/>
-            <Route path="/projects/:name" component ={ProjectsPage}/>
-            <Route path="/project-list" component={ProjectListPage} />
-            <Route path="/design-project-list" component={DesignProjectListPage} />
-            <Route component={NotFoundPage} />
-          </Switch>
+      <NavBar menuClickHandler = {this.sideMenuToggleClickHandler}/>
+      <SideMenu show={this.state.sideMenuOpen}/>
+      {backdrop}
+      <Route render ={({location}) => (
+        <TransitionGroup>
+          <CSSTransition
+              key ={location.key}
+              timeout={500}
+              classNames="fade"
+           >
+            <div id="page-body">
+                <Switch location={location}>
+                  <Route path="/"component ={HomePage} exact/>
+                  <Route path="/about" component ={AboutPage}/>
+                  <Route path="/archive" component ={ArchivePage}/>
+                  <Route path="/projects/:name" component ={ProjectsPage}/>
+                  <Route path="/project-list" component={ProjectListPage} />
+                  <Route path="/design-project-list" component={DesignProjectListPage} />
+                  <Route component={NotFoundPage} />
+                </Switch>
+              </div>
+            </CSSTransition>
+          </TransitionGroup>
 
-        </div>
+      )}/>
+
+
 
       </div>
-    </Router>
+  </Router>
   );
   }
 }

@@ -4,12 +4,12 @@ import { faCodepen } from '@fortawesome/free-brands-svg-icons';
 import { faDribbble } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Footer from "../components/Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Footer from '../components/Footer';
 
 const AboutPage = () => (
   <React.Fragment>
-
+  <div className="page">
     <h1 className="page-title">About Me</h1>
     <img className="aboutImg" src={require('../imgs/photo.jpg')} alt="profile of me"/>
     <section>
@@ -34,6 +34,7 @@ const AboutPage = () => (
         <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="mailto:megan@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
     </section>
     <Footer/>
+    </div>
   </React.Fragment>
 
 );

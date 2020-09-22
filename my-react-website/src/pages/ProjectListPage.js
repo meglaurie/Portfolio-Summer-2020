@@ -5,11 +5,13 @@ import Footer from '../components/Footer';
 
 const ProjectListPage = () => (
   <>
-  <h1 className="page-title">Development</h1>
-  <div className="grid-container">
-    <ProjectList projects={ProjectContent} />
+  <div className="page">
+    <h1 className="page-title">Development</h1>
+    <div className="grid-container">
+      <ProjectList projects={ProjectContent} />
+    </div>
+    <Footer/>
   </div>
-  <Footer/>
   </>
 );
 
