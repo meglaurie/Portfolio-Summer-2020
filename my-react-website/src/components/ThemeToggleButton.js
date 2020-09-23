@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class ThemeToggleButton extends Component{
 
   state = {
-    active: true,
+    active: true
   }
 
   render() {
