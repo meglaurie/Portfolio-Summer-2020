@@ -5,7 +5,7 @@ const HomePage = () => (
   <React.Fragment>
 
     <ThemeToggleButton/>
-  
+    <div className="hacky-block"></div>
   </React.Fragment>
 
 );

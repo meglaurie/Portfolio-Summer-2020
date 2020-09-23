@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AboutPage = () => (
   <React.Fragment>
-  <main className="page">
+  <main className="">
       <section>
         <h1 className="page-title">About Me</h1>
         <img className="aboutImg" src={require('../imgs/photo.jpg')} alt="profile of me"/>

@@ -1,10 +1,14 @@
 // Home Page Styles
 
 .home-container{
-  height: auto;
+  // height: 70vh;
   max-width:895px;
-
 }
+
+.hacky-block{
+  min-height: 465px;
+}
+
 .title-txt{
   margin-top: 17%;
   font-size: 4em;
@@ -27,13 +31,25 @@
 }
 // Night Day Styles
 .square {
-  width: 75px;
-  height: 25px;
-  padding: 15px;
+  width: 100px;
+  height: 45px;
+  padding: 10px;
   text-align: center;
-  margin: 0px auto;
+  vertical-align: middle;
+  margin: 50px auto;
   color: white;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+button:active {
+  outline: none;
+}
+button:focus {
+  outline:none;
+}
+.center-align{
+  text-align: center;
 }
 .switch-off {
   background-color: $night-header-text;
@@ -65,7 +81,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: -1;
+  z-index: 0;
   transition: background-color .5s ease;
 }
 .light-off {
