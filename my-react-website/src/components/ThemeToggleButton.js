@@ -14,7 +14,8 @@ export default class ThemeToggleButton extends Component{
       <main className="">
 
         <section className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
-          <h1 className={ this.state.active? "title-txt page-title": "title-txt page-title textGlow" }>Megan Laurie</h1>
+          <h1 className={ this.state.active? "title-txt page-title animate__animated animate__bounceInUp": "title-txt page-title textGlow" }>Megan Laurie</h1>
+
           <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
           <div className="center-align">
             <button
