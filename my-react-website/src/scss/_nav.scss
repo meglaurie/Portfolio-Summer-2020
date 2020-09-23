@@ -22,13 +22,13 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: $hot-pink;
+  color: $primary-text;
   font-weight: bold;
   padding: 16px 32px;
 }
 
 nav a:hover {
-  color: #f77cd6;
+  color: $hot-pink;
 }
 
 nav .desktop-nav{

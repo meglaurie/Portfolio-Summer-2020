@@ -13,13 +13,13 @@
   margin-top: 17%;
   font-size: 4em;
   text-align: center;
-  color: #db4292;
+  color: $hot-pink;
   text-shadow: 2px 2px 4px #3b2a32;
 }
 .sub-title{
   font-size: 2em;
   text-align: center;
-  color: #db4292;
+  color: $hot-pink;
   text-shadow: 2px 2px 4px #3b2a32;
 }
 
@@ -86,7 +86,7 @@ button:focus {
 }
 .light-off {
   background-color: black;
-  // background-image: url('../imgs/night.jpg');
+  background-image: url('../imgs/purpleneon.png');
   color: #fff;
   width: 100vw;
   height: 100vh;
@@ -99,7 +99,7 @@ button:focus {
 .light-on {
   background-color: white;
   color: black;
-  // background-image: url('../imgs/day.jpg');
+  background-image: url('../imgs/whitewall.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
