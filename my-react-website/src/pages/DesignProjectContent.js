@@ -33,7 +33,7 @@ const designProjects = [
         name: 'Project 4',
         title: 'Vector Workspace',
         image: require('../imgs/VectorWorkspace.png'),
-        alt: 'alt-text',
+        alt: 'Vector art work space; desk, chair, cat, lamp, and other trinkets',
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13956797-Office-Desk-Vector-Art',
         content: [

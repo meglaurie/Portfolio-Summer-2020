@@ -18,6 +18,7 @@ export default class ThemeToggleButton extends Component{
           <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
           <div className="center-align">
             <button
+              aria-label="Night day toggle button"
               className={ this.state.active ? "square switch-on" : "square switch-off" }
               onClick={() => this.setState({active: !this.state.active})}>
               { this.state.active ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} /> }

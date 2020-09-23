@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => (
           <img className="projectImg" src={projects.image} alt={projects.alt}/>
           <h3 className="project-title">{projects.title}</h3>
           <p className="project-desc">{projects.content[0]}</p>
-          <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" href={projects.url}><FontAwesomeIcon icon={faGithubAlt} /></a>
+          <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" aria-label="Github external link" href={projects.url}><FontAwesomeIcon icon={faGithubAlt} /></a>
         </div>
     </div>
   ))}

@@ -52,7 +52,7 @@ button:focus {
   text-align: center;
 }
 .switch-off {
-  background-color: $night-header-text;
+  background-color: $hot-pink;
   color: #fff;
   text-shadow:
   0 0 10px #fff,
@@ -61,14 +61,14 @@ button:focus {
   0 0 40px #f77cd6,
   0 0 50px #e154b4,
   0 0 60px #db4292,
-  0 0 70px $night-header-text;
+  0 0 70px $hot-pink;
   box-shadow: 0px 0px 55px 20px #f77cd6;
   -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
   -moz-animation: btnGlow 3s ease-in-out infinite alternate;
   animation: btnGlow 3s ease-in-out infinite alternate;
 }
 .switch-on {
-  background-color: #db4292;
+  background-color: $hot-pink;
   box-shadow: 2px 2px 4px #3b2a32;
 
 }
@@ -116,7 +116,7 @@ button:focus {
   0 0 40px #f77cd6,
   0 0 50px #e154b4,
   0 0 60px #db4292,
-  0 0 70px $night-header-text;
+  0 0 70px $hot-pink;
   animation: textGlow 1s ease-in-out infinite;
 }
 
@@ -129,7 +129,7 @@ button:focus {
     0 0 40px #f77cd6,
     0 0 50px #e154b4,
     0 0 60px #db4292,
-    0 0 70px $night-header-text;
+    0 0 70px $hot-pink;
   }
   to {
     text-shadow:
@@ -139,7 +139,7 @@ button:focus {
     0 0 50px #ff4da6,
     0 0 60px #ff4da6,
     0 0 70px #ff4da6,
-    0 0 80px $night-header-text;
+    0 0 80px $hot-pink;
   }
 }
 
@@ -160,6 +160,6 @@ button:focus {
     background-color: #db4292;
   }
   100%{
-    background-color: $night-header-text;
+    background-color: $hot-pink;
   }
 }
