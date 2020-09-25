@@ -11,7 +11,7 @@ const AboutPage = () => (
   <React.Fragment>
   <main className="">
       <section>
-        <h1 className="page-title">About Me</h1>
+        <h1 className="page-title"><span className="underline">About Me</span></h1>
         <img className="aboutImg" src={require('../imgs/photo.jpg')} alt="profile of me"/>
         <p>
           Hello World!

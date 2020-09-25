@@ -5,7 +5,7 @@ import ProjectContent from './ProjectContent';
 const ProjectListPage = () => (
   <>
   <main className="page">
-    <h1 className="page-title">Development</h1>
+    <h1 className="page-title"><span className="underline">Development</span></h1>
     <div className="grid-container">
       <ProjectList projects={ProjectContent} />
     </div>

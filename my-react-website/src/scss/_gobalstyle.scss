@@ -68,7 +68,26 @@ p{
   font-size: 1.75em;
   margin-bottom: 0px;
   // margin-left: 50px;
-  color: #db4292;
+  color: black;
+}
+
+.underline{
+  color: black;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+}
+
+.underline::after{
+  content:'';
+  width:100%;
+  position: absolute;
+  left:0;
+  bottom:-1px;
+  height: 3px;
+  background: $hot-pink;
+  background: -webkit-linear-gradient(to right, #421575, $hot-pink);
+  background: linear-gradient(to right, #421575, $hot-pink);
 }
 
 .projectImg{
@@ -97,7 +116,7 @@ p{
   font-size: 1.2em;
   margin-bottom: 20px;
   text-align: left;
-  color: #db4292;
+  color: $hot-pink;
 }
 .project-desc{
   margin-bottom: 20px;
