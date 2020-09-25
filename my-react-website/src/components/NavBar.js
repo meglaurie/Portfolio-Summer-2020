@@ -9,6 +9,7 @@ const NavBar = props => (
     </div>
     <div className="desktop-nav">
       <ul className="desktop-ul">
+        <img src="./imgs/logo.png" alt="ML logo" width="50" height="50" align="left"/>
         <li className="desktop-li">
           <Link to="/">Home</Link>
         </li>
