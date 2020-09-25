@@ -9,7 +9,7 @@ const NavBar = props => (
     </div>
     <div className="desktop-nav">
       <ul className="desktop-ul">
-        <Link to="/"><img src={require('../imgs/logo.png')} alt="ML logo" width="50" height="50" align="left" style={{margin:20}}/></Link>
+        <Link to="/"><img src={require('../imgs/logo.png')} alt="ML logo" width="50" height="50" align="left" className="logo"/></Link>
         <li className="desktop-li">
           <Link to="/">Home</Link>
         </li>
