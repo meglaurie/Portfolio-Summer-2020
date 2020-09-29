@@ -24,6 +24,7 @@ import {
 class App extends Component {
   state = {
     sideMenuOpen: false,
+    active: true,
   }
 
   sideMenuToggleClickHandler = () => {
