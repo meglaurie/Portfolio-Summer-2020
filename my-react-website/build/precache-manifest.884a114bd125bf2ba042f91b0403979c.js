@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5da65acfc7a483814c68c815e048161d",
+    "revision": "7acc6642b0c0666dd476fad03adbed59",
     "url": "/index.html"
   },
   {
-    "revision": "5ec480610ebc409a8d49",
-    "url": "/static/css/main.04052fec.chunk.css"
+    "revision": "d1776fe7dec04be14f00",
+    "url": "/static/css/main.d2608bee.chunk.css"
   },
   {
-    "revision": "8f0aa8e200ae60341673",
-    "url": "/static/js/2.6a56359f.chunk.js"
+    "revision": "c7db18537cc6d3591d69",
+    "url": "/static/js/2.d9efbc21.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.6a56359f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ec480610ebc409a8d49",
-    "url": "/static/js/main.9d76f55d.chunk.js"
+    "revision": "d1776fe7dec04be14f00",
+    "url": "/static/js/main.a3eccfd2.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -58,5 +58,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aeccf9e331f9c29806887f5cbb0020c7",
     "url": "/static/media/pokemon.aeccf9e3.png"
+  },
+  {
+    "revision": "ab9393813073b877175bcd837949257f",
+    "url": "/static/media/purpleneon.ab939381.png"
+  },
+  {
+    "revision": "b0e5a42324de7fa9da4273087ae39666",
+    "url": "/static/media/purplewall.b0e5a423.png"
+  },
+  {
+    "revision": "6c17f078e0ef72993aa22ad4d47be79e",
+    "url": "/static/media/whitewall.6c17f078.png"
   }
 ]);

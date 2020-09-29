@@ -14,6 +14,7 @@ export default class ThemeToggleButton extends Component{
       <main className="home">
 
         <section className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
+          <div className="vertical-align-middle">
           <h1 className={ this.state.active? "title-txt page-title animate__animated animate__bounceInUp": "title-txt page-title textGlow" }>Megan Laurie</h1>
 
           <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
@@ -24,6 +25,7 @@ export default class ThemeToggleButton extends Component{
               onClick={() => this.setState({active: !this.state.active})}>
               { this.state.active ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} /> }
             </button>
+          </div>
           </div>
         </section>
 

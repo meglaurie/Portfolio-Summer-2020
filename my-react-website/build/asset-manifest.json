@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.04052fec.chunk.css",
-    "main.js": "/static/js/main.9d76f55d.chunk.js",
-    "main.js.map": "/static/js/main.9d76f55d.chunk.js.map",
+    "main.css": "/static/css/main.d2608bee.chunk.css",
+    "main.js": "/static/js/main.a3eccfd2.chunk.js",
+    "main.js.map": "/static/js/main.a3eccfd2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
-    "static/js/2.6a56359f.chunk.js": "/static/js/2.6a56359f.chunk.js",
-    "static/js/2.6a56359f.chunk.js.map": "/static/js/2.6a56359f.chunk.js.map",
+    "static/js/2.d9efbc21.chunk.js": "/static/js/2.d9efbc21.chunk.js",
+    "static/js/2.d9efbc21.chunk.js.map": "/static/js/2.d9efbc21.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0e3fead0d753f437e97e5575a78a2ce0.js": "/precache-manifest.0e3fead0d753f437e97e5575a78a2ce0.js",
+    "precache-manifest.884a114bd125bf2ba042f91b0403979c.js": "/precache-manifest.884a114bd125bf2ba042f91b0403979c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.04052fec.chunk.css.map": "/static/css/main.04052fec.chunk.css.map",
-    "static/js/2.6a56359f.chunk.js.LICENSE.txt": "/static/js/2.6a56359f.chunk.js.LICENSE.txt",
+    "static/css/main.d2608bee.chunk.css.map": "/static/css/main.d2608bee.chunk.css.map",
+    "static/js/2.d9efbc21.chunk.js.LICENSE.txt": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt",
     "static/media/BubbleTea.png": "/static/media/BubbleTea.47ef7f12.png",
     "static/media/HelloThereBatmanReturns.gif": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif",
     "static/media/Luna-CSS.png": "/static/media/Luna-CSS.7774cbf6.png",
@@ -20,12 +20,14 @@
     "static/media/Portfolio-2019.png": "/static/media/Portfolio-2019.996b0bb5.png",
     "static/media/VectorWorkspace.png": "/static/media/VectorWorkspace.323538f3.png",
     "static/media/photo.jpg": "/static/media/photo.45d1fae4.jpg",
-    "static/media/pokemon.png": "/static/media/pokemon.aeccf9e3.png"
+    "static/media/pokemon.png": "/static/media/pokemon.aeccf9e3.png",
+    "static/media/App.scss": "/static/media/whitewall.6c17f078.png",
+    "static/media/purplewall.png": "/static/media/purplewall.b0e5a423.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9f3608b.js",
-    "static/js/2.6a56359f.chunk.js",
-    "static/css/main.04052fec.chunk.css",
-    "static/js/main.9d76f55d.chunk.js"
+    "static/js/2.d9efbc21.chunk.js",
+    "static/css/main.d2608bee.chunk.css",
+    "static/js/main.a3eccfd2.chunk.js"
   ]
 }

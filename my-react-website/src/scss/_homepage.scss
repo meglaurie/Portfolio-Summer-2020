@@ -13,8 +13,7 @@
 }
 .title-txt{
   margin: auto;
-  margin-top: 9%;
-  width: 50%;
+  width: 100%;
   font-size: 6vw;
   text-align: center;
   color: black;
@@ -26,6 +25,13 @@
   text-align: center;
   color: black;
   // text-shadow: 2px 2px 4px #3b2a32;
+}
+
+.vertical-align-middle{
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .dkNav{
