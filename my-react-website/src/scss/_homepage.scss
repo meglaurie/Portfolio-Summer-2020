@@ -42,14 +42,25 @@
 }
 // Night Day Styles
 .square {
-  width: 15%;
-  height: 50px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: middle;
-  margin: 40px auto;
-  color: white;
-  border-radius: 5px;
+  // width: 15%;
+  // height: 50px;
+  // padding: 10px;
+  // text-align: center;
+  // vertical-align: middle;
+  // margin: 40px auto;
+  // color: white;
+  // border-radius: 5px;
+  // border: none;
+  background-image:linear-gradient(to right, $hot-pink, $purple) ;
+  box-shadow: 2px 2px 4px #3b2a32;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
   border: none;
 }
 
@@ -63,8 +74,8 @@ button:focus {
   text-align: center;
 }
 .switch-off {
-  background-color: $hot-pink;
-  color: #fff;
+
+  background-size: 300% 100%;
   text-shadow:
   0 0 10px #fff,
   0 0 20px #fff,
@@ -77,14 +88,28 @@ button:focus {
   -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
   -moz-animation: btnGlow 3s ease-in-out infinite alternate;
   animation: btnGlow 3s ease-in-out infinite alternate;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 .switch-on {
-  background-color: $hot-pink;
-  box-shadow: 2px 2px 4px #3b2a32;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 
 }
-.switch-on:hover {
-  background-color: #f77cd6;
+.switch-off,.switch-on:hover {
+  background-position: 100% 0;
+      moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
 }
 .bg-light {
   position: absolute;
