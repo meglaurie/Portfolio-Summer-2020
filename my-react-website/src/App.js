@@ -36,6 +36,10 @@ class App extends Component {
     this.setState({sideMenuOpen: false})
   }
 
+  ThemeToggleHandler = () => {
+    this.setState({active: true})
+  }
+
 render(){
   let backdrop = null;
 

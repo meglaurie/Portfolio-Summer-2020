@@ -3,7 +3,7 @@ import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default class ThemeToggleButton extends Component{
+class ThemeToggleButton extends Component{
 
   state = {
     active: true
@@ -30,7 +30,7 @@ export default class ThemeToggleButton extends Component{
         </section>
 
       </main>
-
     );
   }
 }
+export default ThemeToggleButton;
