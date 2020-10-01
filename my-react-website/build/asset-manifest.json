@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2608bee.chunk.css",
-    "main.js": "/static/js/main.a3eccfd2.chunk.js",
-    "main.js.map": "/static/js/main.a3eccfd2.chunk.js.map",
+    "main.css": "/static/css/main.9cbaf2a1.chunk.css",
+    "main.js": "/static/js/main.feb8888c.chunk.js",
+    "main.js.map": "/static/js/main.feb8888c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
     "static/js/2.d9efbc21.chunk.js": "/static/js/2.d9efbc21.chunk.js",
     "static/js/2.d9efbc21.chunk.js.map": "/static/js/2.d9efbc21.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.884a114bd125bf2ba042f91b0403979c.js": "/precache-manifest.884a114bd125bf2ba042f91b0403979c.js",
+    "precache-manifest.873d2725fbf20ef350a084a2064fb678.js": "/precache-manifest.873d2725fbf20ef350a084a2064fb678.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d2608bee.chunk.css.map": "/static/css/main.d2608bee.chunk.css.map",
+    "static/css/main.9cbaf2a1.chunk.css.map": "/static/css/main.9cbaf2a1.chunk.css.map",
     "static/js/2.d9efbc21.chunk.js.LICENSE.txt": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt",
     "static/media/BubbleTea.png": "/static/media/BubbleTea.47ef7f12.png",
     "static/media/HelloThereBatmanReturns.gif": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.b9f3608b.js",
     "static/js/2.d9efbc21.chunk.js",
-    "static/css/main.d2608bee.chunk.css",
-    "static/js/main.a3eccfd2.chunk.js"
+    "static/css/main.9cbaf2a1.chunk.css",
+    "static/js/main.feb8888c.chunk.js"
   ]
 }
