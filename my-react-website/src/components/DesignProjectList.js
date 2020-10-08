@@ -12,8 +12,8 @@ const DesignProjectList = ({ designProjects }) => (
         <img className="projectImg" src={designProjects.image} alt={designProjects.alt}/>
         <h3 className="project-title">{designProjects.title}</h3>
         <p className="project-desc">{designProjects.content[0]}</p>
-        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" aria-label="Codepen external link" href={designProjects.codepen}><FontAwesomeIcon icon={faCodepen} /></a>
-        <a className="fa-icon project-icon" target="_blank" rel="noopener noreferrer" aria-label="Dribble external link" href={designProjects.dribbble}><FontAwesomeIcon icon={faDribbble} /></a>
+        <a className={designProjects.codepen == '' ? "display-none" : "fa-icon project-icon" } target="_blank" rel="noopener noreferrer" aria-label="Codepen external link" href={designProjects.codepen}><FontAwesomeIcon icon={faCodepen} /></a>
+        <a className={designProjects.dribbble == '' ? "display-none" : "fa-icon project-icon" } target="_blank" rel="noopener noreferrer" aria-label="Dribble external link" href={designProjects.dribbble}><FontAwesomeIcon icon={faDribbble} /></a>
       </div>
     </section>
 

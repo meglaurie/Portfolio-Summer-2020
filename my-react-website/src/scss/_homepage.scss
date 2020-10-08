@@ -23,10 +23,11 @@
 .sub-title{
   font-size: 3vw;
   text-align: center;
-  background: -webkit-linear-gradient( $hot-pink, $purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  // background: -webkit-linear-gradient( $hot-pink, $purple);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
   // text-shadow: 2px 2px 4px #3b2a32;
+  color: $hot-pink;
 }
 
 .vertical-align-middle{
