@@ -6,7 +6,7 @@ const designProjects = [
         alt: 'Icon set with 12 different kinds of bubble tea.',
         codepen: '',
         dribbble: 'https://dribbble.com/shots/13942532-BubbleTea-Icon-Set',
-        github: '',
+        github: 'https://github.com/meglaurie/SVG-Bubble-tea-icons',
         content: [
             `PNG and SVG icon set made using Sketch. Available for free download on Github.`,
         ]

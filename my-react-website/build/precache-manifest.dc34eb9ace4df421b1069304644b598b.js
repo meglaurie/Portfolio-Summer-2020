@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d935c9daac422506f081ea30d9294395",
+    "revision": "50c0246692e27c93948ee16edbebdca1",
     "url": "/index.html"
   },
   {
-    "revision": "d0c0b795da5e027cfb0d",
-    "url": "/static/css/main.9cbaf2a1.chunk.css"
+    "revision": "8eedb3ca000c32771a36",
+    "url": "/static/css/main.9bfcb8ff.chunk.css"
   },
   {
     "revision": "c7db18537cc6d3591d69",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0c0b795da5e027cfb0d",
-    "url": "/static/js/main.feb8888c.chunk.js"
+    "revision": "8eedb3ca000c32771a36",
+    "url": "/static/js/main.ee2d8bd6.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -60,15 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pokemon.aeccf9e3.png"
   },
   {
-    "revision": "ab9393813073b877175bcd837949257f",
-    "url": "/static/media/purpleneon.ab939381.png"
+    "revision": "cbc9a05174f6d336663137d4c9b4f090",
+    "url": "/static/media/purpleneon.cbc9a051.png"
   },
   {
     "revision": "b0e5a42324de7fa9da4273087ae39666",
     "url": "/static/media/purplewall.b0e5a423.png"
   },
   {
-    "revision": "6c17f078e0ef72993aa22ad4d47be79e",
-    "url": "/static/media/whitewall.6c17f078.png"
+    "revision": "2ca2f4d3ebb615e82443b3dc5f4a2627",
+    "url": "/static/media/whitewall.2ca2f4d3.png"
   }
 ]);
