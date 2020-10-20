@@ -17,14 +17,48 @@ const AboutPage = () => (
           Hello World!
         </p>
         <p>
-          My name is Megan Laurie. I am a Frontend Developer and Designer. I design and build things on the internet. I create user friendly websites and applications that are both functional and aesthetically pleasing.
+          My name is Megan Laurie and I am a Frontend Developer and UX/UI Designer. I am passionate about designing and building user friendly websites and applications that are both functional and aesthetically pleasing. I am currently looking for my next opportunity/adventure.
         </p>
         <p>
-          I have 3 years of experience working with Node.js, Bootstrap, NPM/Yarn/Bower, Webpack/Gulp/Grunt, Wordpress, RWD/W3C/ARIA/WCAG, GIT/CVS, REST APIs. My strongest skills include HTML5.1, CSS3, React.js, SASS/Less/PostCSS, Photoshop, Illustrator, and Sketch. I thrive in roles that allow me to utilize both my design and development skills.  I am currently seeking new opportunities in the area of Frontend and UI Development.
+          This portfolio was built using React.js, Node.js, NPM, custom CSS/CSS3, semantic HTML5, and SASS. I have been carefully going through W3C/ARIA/WCAG recommendations to make this site as accessible as possible. This website is currently under construction and I am still working out a few bugs. Thank you for you patience!
         </p>
         <p>
-          Check out my GitHub, Codepen, and Dribble to see some of my work.
+          I have almost 4 years of experience working with:
         </p>
+        <div className="grid-container">
+          <div className="grid-item-text">
+            <h3>Development</h3>
+            <ul>
+              <li>HTML/HTML5</li>
+              <li>CSS/CSS3</li>
+              <li>SASS/LESS/PostCSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>JQuery</li>
+              <li>Bootstrap</li>
+              <li>Node</li>
+              <li>NPM</li>
+              <li>W3C/ARIA/WCAG</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div className="grid-item-text">
+            <h3>Design</h3>
+            <ul>
+              <li>Information architecture</li>
+              <li>UI design</li>
+              <li>UX testing</li>
+              <li>responsive web design</li>
+              <li>Sketch</li>
+              <li>InVision</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>XD</li>
+            </ul>
+          </div>
+        </div>
+        <p>I thrive in roles that allow me to utilize both my design and development skills. I am currently seeking new opportunities in the area of Frontend and UI Development. To see some of my work and the projects that I am currently working on please check out my Github, Codepen, and Dribbble.</p>
       </section>
       <section className="icon-container">
           <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/meglaurie"><FontAwesomeIcon icon={faGithubAlt} /></a>
