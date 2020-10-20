@@ -4,7 +4,7 @@ const projects = [
       title: "Kiki's Delivery App",
       image: require("../imgs/Kiki's-Delivery-App.png"),
       alt: 'Purple background, clouds with moon, girl and cat on a broom stick.',
-      url: 'https://github.com/meglaurie/',
+      url: 'https://github.com/meglaurie/Kikis-Delivery-App',
       url2: 'https://dribbble.com/mlaurie',
       content: [
           `This app is being designed in Figma and built on React. It is currenlty under construction, but you can follow my progress on Github.`,
@@ -21,20 +21,10 @@ const projects = [
         ]
     },{
         name: 'Project 3',
-        title: 'Coming Soon',
-        image: require('../imgs/purplewall.png'),
-        alt: 'poke ball',
-        url: 'https://github.com/meglaurie/',
-        url2: '',
-        content: [
-            ``,
-        ]
-    },{
-        name: 'Project 4',
-        title: 'Coming Soon',
-        image: require('../imgs/purplewall.png'),
-        alt: 'poke ball',
-        url: 'https://github.com/meglaurie/',
+        title: '',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'coming soon',
+        url: '',
         url2: '',
         content: [
             ``,

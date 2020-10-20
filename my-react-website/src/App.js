@@ -27,6 +27,10 @@ class App extends Component {
     active: true,
   }
 
+  ThemeToggleHandler = () => {
+    this.setState({active: !this.state.active})
+  }
+
   sideMenuToggleClickHandler = () => {
     this.setState(prevSate => {
       return { sideMenuOpen: !prevSate.sideMenuOpen}
