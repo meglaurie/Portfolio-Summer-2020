@@ -27,7 +27,7 @@ const AboutPage = () => (
         </p>
         <div className="grid-container">
           <div className="grid-item-text">
-            <h3>Development</h3>
+            <h4>Development</h4>
             <ul>
               <li>HTML/HTML5</li>
               <li>CSS/CSS3</li>
@@ -43,7 +43,7 @@ const AboutPage = () => (
             </ul>
           </div>
           <div className="grid-item-text">
-            <h3>Design</h3>
+            <h4>Design</h4>
             <ul>
               <li>Information architecture</li>
               <li>UI design</li>
