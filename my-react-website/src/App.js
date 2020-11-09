@@ -18,7 +18,7 @@ import BackDrop from './components/SideMenu/BackDrop';
 import Footer from './components/Footer';
 import {
   TransitionGroup,
-  CSSTransition, } from 'react-transition-group';
+  CSSTransition } from 'react-transition-group';
 
 
 class App extends Component {
