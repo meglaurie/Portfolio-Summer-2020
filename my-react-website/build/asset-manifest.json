@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bfcb8ff.chunk.css",
-    "main.js": "/static/js/main.ee2d8bd6.chunk.js",
-    "main.js.map": "/static/js/main.ee2d8bd6.chunk.js.map",
+    "main.css": "/static/css/main.444447ff.chunk.css",
+    "main.js": "/static/js/main.7ee6eeae.chunk.js",
+    "main.js.map": "/static/js/main.7ee6eeae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
-    "static/js/2.d9efbc21.chunk.js": "/static/js/2.d9efbc21.chunk.js",
-    "static/js/2.d9efbc21.chunk.js.map": "/static/js/2.d9efbc21.chunk.js.map",
+    "static/js/2.76a09391.chunk.js": "/static/js/2.76a09391.chunk.js",
+    "static/js/2.76a09391.chunk.js.map": "/static/js/2.76a09391.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc34eb9ace4df421b1069304644b598b.js": "/precache-manifest.dc34eb9ace4df421b1069304644b598b.js",
+    "precache-manifest.e7c8f341b7c59aceb945635c7aecf59d.js": "/precache-manifest.e7c8f341b7c59aceb945635c7aecf59d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9bfcb8ff.chunk.css.map": "/static/css/main.9bfcb8ff.chunk.css.map",
-    "static/js/2.d9efbc21.chunk.js.LICENSE.txt": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt",
+    "static/css/main.444447ff.chunk.css.map": "/static/css/main.444447ff.chunk.css.map",
+    "static/js/2.76a09391.chunk.js.LICENSE.txt": "/static/js/2.76a09391.chunk.js.LICENSE.txt",
     "static/media/BubbleTea.png": "/static/media/BubbleTea.47ef7f12.png",
     "static/media/HelloThereBatmanReturns.gif": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif",
+    "static/media/Kiki's-Delivery-App.png": "/static/media/Kiki's-Delivery-App.394439f1.png",
     "static/media/Luna-CSS.png": "/static/media/Luna-CSS.7774cbf6.png",
     "static/media/Portfolio-2017.png": "/static/media/Portfolio-2017.41038526.png",
     "static/media/Portfolio-2018.png": "/static/media/Portfolio-2018.805616b5.png",
     "static/media/Portfolio-2019.png": "/static/media/Portfolio-2019.996b0bb5.png",
     "static/media/VectorWorkspace.png": "/static/media/VectorWorkspace.323538f3.png",
+    "static/media/coming-soon.png": "/static/media/coming-soon.401d1da7.png",
     "static/media/photo.jpg": "/static/media/photo.45d1fae4.jpg",
     "static/media/pokemon.png": "/static/media/pokemon.aeccf9e3.png",
-    "static/media/App.scss": "/static/media/whitewall.2ca2f4d3.png",
-    "static/media/purplewall.png": "/static/media/purplewall.b0e5a423.png"
+    "static/media/App.scss": "/static/media/whitewall.03923e52.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9f3608b.js",
-    "static/js/2.d9efbc21.chunk.js",
-    "static/css/main.9bfcb8ff.chunk.css",
-    "static/js/main.ee2d8bd6.chunk.js"
+    "static/js/2.76a09391.chunk.js",
+    "static/css/main.444447ff.chunk.css",
+    "static/js/main.7ee6eeae.chunk.js"
   ]
 }

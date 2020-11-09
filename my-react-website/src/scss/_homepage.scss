@@ -36,6 +36,18 @@
   top: 50%;
   transform: translateY(-50%);
 }
+@media only screen and (max-width: 700px){
+  .vertical-align-middle{
+    left: 10%;
+    top: 40%;
+  }
+  .title-txt{
+    font-size: 9vw;
+  }
+  .sub-title{
+    font-size: 5vw;
+  }
+}
 
 .dkNav{
   color: $primary-text;

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50c0246692e27c93948ee16edbebdca1",
+    "revision": "0b62696532e0b924d88f3e06f8fd9f16",
     "url": "/index.html"
   },
   {
-    "revision": "8eedb3ca000c32771a36",
-    "url": "/static/css/main.9bfcb8ff.chunk.css"
+    "revision": "0012fa58b49b3232b233",
+    "url": "/static/css/main.444447ff.chunk.css"
   },
   {
-    "revision": "c7db18537cc6d3591d69",
-    "url": "/static/js/2.d9efbc21.chunk.js"
+    "revision": "1a1cc11c199f182a6687",
+    "url": "/static/js/2.76a09391.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.d9efbc21.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.76a09391.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8eedb3ca000c32771a36",
-    "url": "/static/js/main.ee2d8bd6.chunk.js"
+    "revision": "0012fa58b49b3232b233",
+    "url": "/static/js/main.7ee6eeae.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29d8fdf5304ae4267a362a9e0c61a7ec",
     "url": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif"
+  },
+  {
+    "revision": "394439f1c72dc4c3344cda1258c04c00",
+    "url": "/static/media/Kiki's-Delivery-App.394439f1.png"
   },
   {
     "revision": "7774cbf6f6d684b8e3bce370141b6160",
@@ -52,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/VectorWorkspace.323538f3.png"
   },
   {
+    "revision": "401d1da7987e56e2f665c49f27aa8b5d",
+    "url": "/static/media/coming-soon.401d1da7.png"
+  },
+  {
     "revision": "45d1fae4aaa79e8b161e828df8328650",
     "url": "/static/media/photo.45d1fae4.jpg"
   },
@@ -60,15 +68,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pokemon.aeccf9e3.png"
   },
   {
-    "revision": "cbc9a05174f6d336663137d4c9b4f090",
-    "url": "/static/media/purpleneon.cbc9a051.png"
+    "revision": "fb160e18208903fc076e1b28f2e71a06",
+    "url": "/static/media/purpleneon.fb160e18.png"
   },
   {
-    "revision": "b0e5a42324de7fa9da4273087ae39666",
-    "url": "/static/media/purplewall.b0e5a423.png"
-  },
-  {
-    "revision": "2ca2f4d3ebb615e82443b3dc5f4a2627",
-    "url": "/static/media/whitewall.2ca2f4d3.png"
+    "revision": "03923e52c5ebf6607cb68a8f8baf67fe",
+    "url": "/static/media/whitewall.03923e52.png"
   }
 ]);

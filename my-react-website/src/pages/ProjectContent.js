@@ -6,7 +6,7 @@ const projects = [
       alt: 'Purple background, clouds with moon, girl and cat on a broom stick.',
       url: 'https://github.com/meglaurie/Kikis-Delivery-App',
       url2: '',
-      url3: "https://www.figma.com/proto/6mEKCIUnofMLkgSiHKaydH/Kiki's-Delivery-App?node-id=50%3A3&scaling=min-zoom",
+      url3: "https://www.figma.com/proto/6mEKCIUnofMLkgSiHKaydH/Kiki's-Delivery-App?node-id=24%3A2&scaling=min-zoom",
       content: [
           `This app is being designed in Figma and built on React. It is currenlty under construction, but you can follow my progress through the links.`,
       ]
