@@ -65,7 +65,7 @@ const AboutPage = () => (
           <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://codepen.io/mlaur568"><FontAwesomeIcon icon={faCodepen} /></a>
           <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://dribbble.com/mlaurie"><FontAwesomeIcon icon={faDribbble} /></a>
           <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/megan-laurie"><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="mailto:megan@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
+          <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="mailto:hello@meganlaurie.ca"><FontAwesomeIcon icon={faEnvelope} /></a>
       </section>
     </main>
 

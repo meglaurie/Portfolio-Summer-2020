@@ -1,6 +1,17 @@
 const designProjects = [
     {
         name: 'Project 1',
+        title: 'Freelance Logo Design',
+        image: require('../imgs/YE3LogoArtboard.png'),
+        alt: 'Icon set with 12 different kinds of bubble tea.',
+        codepen: '',
+        dribbble: '',
+        github: '',
+        content: [
+            `Custom logo created for gaming team. Optimized for printing on merchandise.`,
+        ]
+    },{
+        name: 'Project 2',
         title: 'Bubble Tea Icon Set',
         image: require('../imgs/BubbleTea.png'),
         alt: 'Icon set with 12 different kinds of bubble tea.',
@@ -12,6 +23,17 @@ const designProjects = [
         ]
     },  {
         name: 'Project 3',
+        title: 'Salior Moon Icon Set',
+        image: require('../imgs/SailorMoonIconSet.png'),
+        alt: 'Hello There neon sign from Batman returns',
+        codepen: '',
+        dribbble: '',
+        github: '',
+        content: [
+            `Icon set made in Sketch available in SVG and PNG.`,
+        ]
+    },{
+        name: 'Project 4',
         title: 'Hello There',
         image: require('../imgs/HelloThereBatmanReturns.gif'),
         alt: 'Hello There neon sign from Batman returns',
@@ -22,7 +44,7 @@ const designProjects = [
             `Neon sign inspired by Batman Returns. Made with HTML and CSS3`,
         ]
     },  {
-        name: 'Project 2',
+        name: 'Project 5',
         title: 'CSS Luna',
         image: require('../imgs/Luna-CSS.png'),
         alt: 'Pink background with Head of Luna from Sailor Moon in the center',
@@ -33,7 +55,7 @@ const designProjects = [
             `Luna made with HTML and CSS`,
         ]
     },     {
-        name: 'Project 4',
+        name: 'Project 6',
         title: 'Vector Workspace',
         image: require('../imgs/VectorWorkspace.png'),
         alt: 'Vector art work space; desk, chair, cat, lamp, and other trinkets',
