@@ -23,7 +23,18 @@ const projects = [
         ]
     },{
         name: 'Project 3',
-        title: '',
+        title: 'News Feed',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'coming soon',
+        url: '',
+        url2: '',
+        url3: '',
+        content: [
+            ``,
+        ]
+    },{
+        name: 'Project 4',
+        title: 'Star Wars Game',
         image: require('../imgs/coming-soon.png'),
         alt: 'coming soon',
         url: '',
