@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b62696532e0b924d88f3e06f8fd9f16",
+    "revision": "ac3d79a35e7003d03825a077cab516b4",
     "url": "/index.html"
   },
   {
-    "revision": "0012fa58b49b3232b233",
-    "url": "/static/css/main.444447ff.chunk.css"
+    "revision": "a279711852e56aed5544",
+    "url": "/static/css/main.16980854.chunk.css"
   },
   {
-    "revision": "1a1cc11c199f182a6687",
-    "url": "/static/js/2.76a09391.chunk.js"
+    "revision": "ec4e2ecfa3e7a077e7a2",
+    "url": "/static/js/2.06b443f1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.76a09391.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.06b443f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0012fa58b49b3232b233",
-    "url": "/static/js/main.7ee6eeae.chunk.js"
+    "revision": "a279711852e56aed5544",
+    "url": "/static/js/main.8852a6f3.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -52,8 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Portfolio-2019.996b0bb5.png"
   },
   {
+    "revision": "5c07a540a3f9adf1358370a1f90461c0",
+    "url": "/static/media/SailorMoonIconSet.5c07a540.png"
+  },
+  {
+    "revision": "0aada40b769157eb83cf9a64280a9e7f",
+    "url": "/static/media/SingleDivCrayon.0aada40b.png"
+  },
+  {
     "revision": "323538f392e581d1dc2eab778cccb8f8",
     "url": "/static/media/VectorWorkspace.323538f3.png"
+  },
+  {
+    "revision": "e2996b9f256e3c5fdf38aeb47acd2147",
+    "url": "/static/media/YE3LogoArtboard.e2996b9f.png"
   },
   {
     "revision": "401d1da7987e56e2f665c49f27aa8b5d",
