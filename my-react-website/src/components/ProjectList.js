@@ -11,10 +11,10 @@ const ProjectList = ({ projects }) => (
           <img className="projectImg" src={projects.image} alt={projects.alt}/>
           <h3 className="project-title">{projects.title}</h3>
           <p className="project-desc">{projects.content[0]}</p>
-          <a className={projects.url === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Github external link" href={projects.url}><FontAwesomeIcon icon={faGithubAlt} /></a>
-          <a className={projects.url2 === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Dribbble external link" href={projects.url2}><FontAwesomeIcon icon={faDribbble} /></a>
-          <a className={projects.url3 === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Figma external link" href={projects.url3}><FontAwesomeIcon icon={faFigma} /></a>
-          <a className={projects.url4 === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Codepen external link" href={projects.url3}><FontAwesomeIcon icon={faCodepen} /></a>
+          <a className={projects.github === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Github external link" href={projects.github}><FontAwesomeIcon icon={faGithubAlt} /></a>
+          <a className={projects.dribbble === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Dribbble external link" href={projects.drbbble}><FontAwesomeIcon icon={faDribbble} /></a>
+          <a className={projects.figma === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Figma external link" href={projects.figma}><FontAwesomeIcon icon={faFigma} /></a>
+          <a className={projects.codepen === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Codepen external link" href={projects.codepen}><FontAwesomeIcon icon={faCodepen} /></a>
         </div>
     </div>
   ))}
