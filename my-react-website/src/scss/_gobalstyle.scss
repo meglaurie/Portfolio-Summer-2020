@@ -14,17 +14,17 @@ body {
 button {
   background-image:linear-gradient(to right, $hot-pink, $purple, $hot-pink, $purple) ;
   box-shadow: 2px 2px 4px #3b2a32;
-  width: 80px;
+  width: 60px;
+  height: 55px;
   font-size: 16px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
   margin: 20px;
-  height: 55px;
+  margin-right: 50px;
   text-align:center;
   border: none;
   border-radius: 50px;
-
   background-size: 300% 100%;
   border-radius: 50px;
   moz-transition: all .4s ease-in-out;
