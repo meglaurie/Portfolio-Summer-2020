@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavToggleButton from './SideMenu/NavToggle';
+import ThemeToggleButton from './ThemeToggleButton';
 
 const NavBar = props => (
   <nav >
@@ -24,6 +25,9 @@ const NavBar = props => (
         </li>
         <li className="desktop-li">
           <Link to="/archive">Archive</Link>
+        </li>
+        <li className="desktop-li">
+         <ThemeToggleButton/>
         </li>
       </ul>
     </div>

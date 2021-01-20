@@ -1,222 +1,98 @@
 // Home Page Styles
+.lightMode{
+  .home-container{
+    // height: 70vh;
+    max-width:895px;
+  }
 
-.home-container{
-  // height: 70vh;
-  max-width:895px;
-}
-
-.hacky-block{
-  min-height: 465px;
-}
-.home{
-  // max-width: ;
-}
-.title-txt{
-  margin: auto;
-  width: 100%;
-  font-size: 6vw;
-  text-align: center;
-  color: $primary-text;
-  text-shadow: 2px 2px 4px #3b2a32;
-  font-family: 'Rock Salt', cursive;
-}
-.sub-title{
-  font-size: 3vw;
-  text-align: center;
-  // background: -webkit-linear-gradient( $hot-pink, $purple);
-  // -webkit-background-clip: text;
-  // -webkit-text-fill-color: transparent;
-  // text-shadow: 2px 2px 4px #3b2a32;
-  color: $hot-pink;
-}
-
-.vertical-align-middle{
-  position: absolute;
-  left: 25%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-@media only screen and (max-width: 700px){
-  .vertical-align-middle{
-    left: 10%;
-    top: 40%;
+  .hacky-block{
+    min-height: 465px;
+  }
+  .home{
+    // max-width: ;
   }
   .title-txt{
-    font-size: 9vw;
+    margin: auto;
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+    color: $primary-text;
+    text-shadow: 2px 2px 4px #3b2a32;
+    font-family: 'Rock Salt', cursive;
   }
   .sub-title{
-    font-size: 5vw;
+    font-size: 3vw;
+    text-align: center;
+    // background: -webkit-linear-gradient( $hot-pink, $purple);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // text-shadow: 2px 2px 4px #3b2a32;
+    color: $hot-pink;
   }
-}
 
-.dkNav{
-  color: $primary-text;
-}
-.ltNav{
-  color: $primary-text;
-}
-// Night Day Styles
-.square {
-  // width: 15%;
-  // height: 50px;
-  // padding: 10px;
-  // text-align: center;
-  // vertical-align: middle;
-  // margin: 40px auto;
-  // color: white;
-  // border-radius: 5px;
-  // border: none;
-  background-image:linear-gradient(to right, $hot-pink, $purple, $hot-pink, $purple) ;
-  box-shadow: 2px 2px 4px #3b2a32;
-  width: 200px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align:center;
-  border: none;
-}
-
-button:active {
-  outline: none;
-}
-button:focus {
-  outline:none;
-}
-.center-align{
-  text-align: center;
-}
-.switch-off {
-  background-size: 300% 100%;
-  text-shadow:
-  0 0 10px #fff,
-  0 0 20px #fff,
-  0 0 30px #f696e0,
-  0 0 40px #f77cd6,
-  0 0 50px #e154b4,
-  0 0 60px #db4292,
-  0 0 70px $hot-pink;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  box-shadow: 0px 0px 55px 20px #f77cd6;
-  -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
-  -moz-animation: btnGlow 3s ease-in-out infinite alternate;
-  animation: btnGlow 3s ease-in-out infinite alternate;
-  border-radius: 50px;
-}
-.switch-on {
-  background-size: 300% 100%;
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-
-}
-.switch-on:hover {
-  background-position: 100% 0;
-      moz-transition: all .4s ease-in-out;
-      -o-transition: all .4s ease-in-out;
-      -webkit-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
-}
-.switch-off:hover {
-  background-position: 100% 0;
-      moz-transition: all .4s ease-in-out;
-      -o-transition: all .4s ease-in-out;
-      -webkit-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
-}
-
-.bg-light {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 0;
-  transition: background-color .5s ease;
-}
-.light-off {
-  background-color: black;
-  background-image: url('../imgs/purpleneon.png');
-  color: #fff;
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-
-.light-on {
-  background-color: white;
-  color: black;
-  background-image: url('../imgs/whitewall.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
-.textGlow{
-  color: #fff;
-  text-shadow:
-  0 0 10px #fff,
-  0 0 20px #fff,
-  0 0 30px #f696e0,
-  0 0 40px #f77cd6,
-  0 0 50px #e154b4,
-  0 0 60px #db4292,
-  0 0 70px $hot-pink;
-  animation: textGlow 1s ease-in-out infinite;
-}
-
-@-webkit-keyframes textGlow {
-  from {
-    text-shadow:
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 30px #f696e0,
-    0 0 40px #f77cd6,
-    0 0 50px #e154b4,
-    0 0 60px #db4292,
-    0 0 70px $hot-pink;
+  .vertical-align-middle{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
   }
-  to {
-    text-shadow:
-    0 0 20px #fff,
-    0 0 30px #ff4da6,
-    0 0 40px #ff4da6,
-    0 0 50px #ff4da6,
-    0 0 60px #ff4da6,
-    0 0 70px #ff4da6,
-    0 0 80px $hot-pink;
+  @media only screen and (max-width: 700px){
+    .vertical-align-middle{
+      left: 10%;
+      top: 40%;
+    }
+    .title-txt{
+      font-size: 9vw;
+    }
+    .sub-title{
+      font-size: 5vw;
+    }
   }
-}
 
-@-webkit-keyframes btnGlow {
-  0%{
-    background-color: #fff;
+
+  .ltNav{
+    color: $primary-text;
   }
-  20%{
-    background-color: #f696e0;
+  // Night Day Styles
+
+
+
+  .switch-on {
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
   }
-  40%{
-    background-color: #f77cd6;
+  .switch-on:hover {
+    background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
   }
-  60%{
-    background-color: #e154b4;
+
+  .bg-light {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transition: background-color .5s ease;
   }
-  80%{
-    background-color: #db4292;
-  }
-  100%{
-    background-color: $hot-pink;
+
+
+
+  .homeBG {
+    background-color: white;
+    background-image: url('../imgs/whitewall.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
   }
 }

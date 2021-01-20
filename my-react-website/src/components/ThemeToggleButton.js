@@ -3,34 +3,49 @@ import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-class ThemeToggleButton extends Component{
 
-  state = {
-    active: true
+const ThemeToggleButton = () => {
+
+  let clickedClass = "clicked"
+  const body = document.body
+  const lightMode = "light"
+  const darkMode = "dark"
+  let theme
+
+  if (localStorage) {
+    theme = localStorage.getItem("theme")
+  }
+  if (theme === lightMode || theme === darkMode) {
+    body.classList.add(theme)
+  } else {
+    body.classList.add(lightMode)
   }
 
-  render() {
+  const switchTheme = e => {
+    if (theme === darkMode) {
+      body.classList.replace(darkMode, lightMode)
+      e.target.classList.remove(clickedClass)
+      localStorage.setItem("theme", "light")
+      theme = lightMode
+    } else {
+      body.classList.replace(lightMode, darkMode)
+      e.target.classList.add(clickedClass)
+      localStorage.setItem("theme", "dark")
+      theme = darkMode
+    }
+  }
+
     return (
-      <main className="home">
 
-        <section className={ this.state.active? "bg-light light-on": "bg-light light-off" } >
-          <div className="vertical-align-middle">
-          <h1 className={ this.state.active? "title-txt page-title animate__animated animate__bounceInUp": "title-txt page-title textGlow" }>Megan Laurie</h1>
+      <button
+        className={theme === "dark" ? clickedClass : ""}
+        id="darkMode"
+        onClick={e => switchTheme(e)}>
+       <FontAwesomeIcon icon={faMoon} />
+      </button>
 
-          <h2 className={ this.state.active? "sub-title": "sub-title textGlow" }>Front-end Developer and Designer</h2>
-          <div className="center-align">
-            <button
-              aria-label="Night day toggle button"
-              className={ this.state.active ? "square switch-on" : "square switch-off" }
-              onClick={() => this.setState({active: !this.state.active})}>
-              { this.state.active ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} /> }
-            </button>
-          </div>
-          </div>
-        </section>
+    )
 
-      </main>
-    );
-  }
+
 }
 export default ThemeToggleButton;

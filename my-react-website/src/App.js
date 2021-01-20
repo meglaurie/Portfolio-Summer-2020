@@ -63,6 +63,7 @@ render(){
               timeout={500}
               classNames="fade"
            >
+
             <div id="page-body">
                 <Switch location={location}>
                   <Route path="/"component ={HomePage} exact/>
@@ -73,6 +74,7 @@ render(){
                   <Route path="/design-project-list" component={DesignProjectListPage} />
                   <Route component={NotFoundPage} />
                 </Switch>
+
               </div>
             </CSSTransition>
           </TransitionGroup>

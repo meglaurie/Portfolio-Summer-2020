@@ -1,0 +1,102 @@
+  //
+  // .dkNav{
+  //   color: $primary-text;
+  // }
+  //
+  // .light-off {
+  //   background-color: black;
+  //   background-image: url('../imgs/purpleneon.png');
+  //   color: #fff;
+  //   width: 100vw;
+  //   height: 100vh;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: cover;
+  // }
+  //
+  // .switch-off {
+  //   background-size: 300% 100%;
+  //   text-shadow:
+  //   0 0 10px #fff,
+  //   0 0 20px #fff,
+  //   0 0 30px #f696e0,
+  //   0 0 40px #f77cd6,
+  //   0 0 50px #e154b4,
+  //   0 0 60px #db4292,
+  //   0 0 70px $hot-pink;
+  //   moz-transition: all .4s ease-in-out;
+  //   -o-transition: all .4s ease-in-out;
+  //   -webkit-transition: all .4s ease-in-out;
+  //   transition: all .4s ease-in-out;
+  //   box-shadow: 0px 0px 55px 20px #f77cd6;
+  //   -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
+  //   -moz-animation: btnGlow 3s ease-in-out infinite alternate;
+  //   animation: btnGlow 3s ease-in-out infinite alternate;
+  //   border-radius: 50px;
+  // }
+  //
+  // .switch-off:hover {
+  //   background-position: 100% 0;
+  //       moz-transition: all .4s ease-in-out;
+  //       -o-transition: all .4s ease-in-out;
+  //       -webkit-transition: all .4s ease-in-out;
+  //       transition: all .4s ease-in-out;
+  // }
+  //
+  //
+  // .textGlow{
+  //   color: #fff;
+  //   text-shadow:
+  //   0 0 10px #fff,
+  //   0 0 20px #fff,
+  //   0 0 30px #f696e0,
+  //   0 0 40px #f77cd6,
+  //   0 0 50px #e154b4,
+  //   0 0 60px #db4292,
+  //   0 0 70px $hot-pink;
+  //   animation: textGlow 1s ease-in-out infinite;
+  // }
+  //
+  // @-webkit-keyframes textGlow {
+  //   from {
+  //     text-shadow:
+  //     0 0 10px #fff,
+  //     0 0 20px #fff,
+  //     0 0 30px #f696e0,
+  //     0 0 40px #f77cd6,
+  //     0 0 50px #e154b4,
+  //     0 0 60px #db4292,
+  //     0 0 70px $hot-pink;
+  //   }
+  //   to {
+  //     text-shadow:
+  //     0 0 20px #fff,
+  //     0 0 30px #ff4da6,
+  //     0 0 40px #ff4da6,
+  //     0 0 50px #ff4da6,
+  //     0 0 60px #ff4da6,
+  //     0 0 70px #ff4da6,
+  //     0 0 80px $hot-pink;
+  //   }
+  // }
+  //
+  // @-webkit-keyframes btnGlow {
+  //   0%{
+  //     background-color: #fff;
+  //   }
+  //   20%{
+  //     background-color: #f696e0;
+  //   }
+  //   40%{
+  //     background-color: #f77cd6;
+  //   }
+  //   60%{
+  //     background-color: #e154b4;
+  //   }
+  //   80%{
+  //     background-color: #db4292;
+  //   }
+  //   100%{
+  //     background-color: $hot-pink;
+  //   }
+  // }

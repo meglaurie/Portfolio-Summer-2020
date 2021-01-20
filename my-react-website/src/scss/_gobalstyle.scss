@@ -7,15 +7,137 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
+.center-align{
+  text-align: center;
+}
 
-button {
-  padding: 16px;
+.dark{
+  background: #000;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
 
+  nav a {
+    color: #fff;
+  }
+
+  .homeBG {
+    background-image: url('../imgs/purpleneon.png');
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .switch-off {
+    background-size: 300% 100%;
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #f696e0,
+    0 0 40px #f77cd6,
+    0 0 50px #e154b4,
+    0 0 60px #db4292,
+    0 0 70px $hot-pink;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    box-shadow: 0px 0px 55px 20px #f77cd6;
+    -webkit-animation: btnGlow 3s ease-in-out infinite alternate;
+    -moz-animation: btnGlow 3s ease-in-out infinite alternate;
+    animation: btnGlow 3s ease-in-out infinite alternate;
+    border-radius: 50px;
+  }
+
+  .switch-off:hover {
+    background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+  }
+
+
+  .page-title, .sub-title{
+    color: #fff;
+    text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #f696e0,
+    0 0 40px #f77cd6,
+    0 0 50px #e154b4,
+    0 0 60px #db4292,
+    0 0 70px $hot-pink;
+    animation: textGlow 1s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes textGlow {
+    from {
+      text-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #f696e0,
+      0 0 40px #f77cd6,
+      0 0 50px #e154b4,
+      0 0 60px #db4292,
+      0 0 70px $hot-pink;
+    }
+    to {
+      text-shadow:
+      0 0 20px #fff,
+      0 0 30px #ff4da6,
+      0 0 40px #ff4da6,
+      0 0 50px #ff4da6,
+      0 0 60px #ff4da6,
+      0 0 70px #ff4da6,
+      0 0 80px $hot-pink;
+    }
+  }
+
+  @-webkit-keyframes btnGlow {
+    0%{
+      background-color: #fff;
+    }
+    20%{
+      background-color: #f696e0;
+    }
+    40%{
+      background-color: #f77cd6;
+    }
+    60%{
+      background-color: #e154b4;
+    }
+    80%{
+      background-color: #db4292;
+    }
+    100%{
+      background-color: $hot-pink;
+    }
+  }
+
+}
+
+.button {
+  background-image:linear-gradient(to right, $hot-pink, $purple, $hot-pink, $purple) ;
+  box-shadow: 2px 2px 4px #3b2a32;
+  width: 200px;
   font-size: 16px;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
   cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+}
+
+button:active {
+  outline: none;
+}
+button:focus {
+  outline:none;
 }
 
 h3, h4 {
@@ -55,7 +177,7 @@ p{
 }
 // END
 
-#page-body {
+.page-body {
   max-width: 950px;
   min-height: auto;
   margin: auto;
@@ -68,11 +190,10 @@ p{
   font-size: 1.75em;
   margin-bottom: 0px;
   // margin-left: 50px;
-  color: black;
+
 }
 
 .underline{
-  color: black;
    text-decoration: none;
    border-bottom: none;
    position: relative;
