@@ -15,7 +15,7 @@ import './App.scss';
 import NavBar from './components/NavBar';
 import SideMenu from './components/SideMenu/SideMenu';
 import BackDrop from './components/SideMenu/BackDrop';
-import Footer from './components/Footer';
+
 import {
   TransitionGroup,
   CSSTransition } from 'react-transition-group';
@@ -80,7 +80,7 @@ render(){
           </TransitionGroup>
 
       )}/>
-      <Footer/>
+
       </div>
   </Router>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import ThemeToggleButton from '../components/ThemeToggleButton';
+import Footer from '../components/Footer';
 
 const HomePage = () => (
   <React.Fragment>
@@ -12,6 +13,7 @@ const HomePage = () => (
     </div>
   </section>
 </main>
+<Footer/>
   </React.Fragment>
 
 );
