@@ -19,6 +19,13 @@
     animation: textGlow 1s ease-in-out infinite;
   }
 
+  .mobileNavli a{
+    color: #000;
+  }
+  .mobileNavli a:hover{
+    color: $hot-pink;
+  }
+
   a{
     color: $hot-pink;
   }

@@ -8,7 +8,7 @@ const SideMenu = props => {
   }
   return (
   <nav className={menuClasses}>
-    <div>
+    <div className="mobileNavli">
       <Link to="/"><img src={require('../../imgs/logo.png')} alt="ML logo" width="50" height="50" align="left" className="logo"/></Link>
       <ul className="mobile-ul">
         <li className="mobile-li">
