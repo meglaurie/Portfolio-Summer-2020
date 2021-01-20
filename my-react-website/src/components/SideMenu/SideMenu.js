@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ThemeToggleButton from '../ThemeToggleButton';
 
 const SideMenu = props => {
   let menuClasses = 'side-menu';
@@ -25,6 +26,9 @@ const SideMenu = props => {
         </li>
         <li className="mobile-li">
           <Link to="/archive">Archive</Link>
+        </li>
+        <li className="mobile-li">
+          <ThemeToggleButton/>
         </li>
       </ul>
     </div>
