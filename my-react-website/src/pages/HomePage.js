@@ -1,5 +1,4 @@
 import React from 'react';
-import ThemeToggleButton from '../components/ThemeToggleButton';
 import Footer from '../components/Footer';
 
 const HomePage = () => (

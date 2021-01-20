@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { faSun } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+// import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
