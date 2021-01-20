@@ -6,6 +6,12 @@
   nav a {
     color: #fff;
   }
+  a{
+    color: $hot-pink;
+  }
+  a:hover{
+    color: #fff;
+  }
 
   .homeBG {
     background-image: url('../imgs/purpleneon.png');

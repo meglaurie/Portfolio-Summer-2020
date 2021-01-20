@@ -26,7 +26,7 @@
 
   .vertical-align-middle{
     position: absolute;
-    left: 25%;
+    left: 30%;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -46,22 +46,22 @@
 
   // Night Day Styles
 
-  .switch-on {
-    background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-
-  }
-  .switch-on:hover {
-    background-position: 100% 0;
-        moz-transition: all .4s ease-in-out;
-        -o-transition: all .4s ease-in-out;
-        -webkit-transition: all .4s ease-in-out;
-        transition: all .4s ease-in-out;
-  }
+  // .switch-on {
+  //   background-size: 300% 100%;
+  //   border-radius: 50px;
+  //   moz-transition: all .4s ease-in-out;
+  //   -o-transition: all .4s ease-in-out;
+  //   -webkit-transition: all .4s ease-in-out;
+  //   transition: all .4s ease-in-out;
+  //
+  // }
+  // .switch-on:hover {
+  //   background-position: 100% 0;
+  //       moz-transition: all .4s ease-in-out;
+  //       -o-transition: all .4s ease-in-out;
+  //       -webkit-transition: all .4s ease-in-out;
+  //       transition: all .4s ease-in-out;
+  // }
 
   // .bg-light {
   //   position: absolute;
