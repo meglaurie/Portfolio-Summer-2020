@@ -1,20 +1,18 @@
 // Home Page Styles
-.lightMode{
+
   .home-container{
     // height: 70vh;
     max-width:895px;
   }
 
-  .hacky-block{
-    min-height: 465px;
-  }
-  .home{
-    // max-width: ;
-  }
+  // .hacky-block{
+  //   min-height: 465px;
+  // }
+
   .title-txt{
     margin: auto;
     width: 100%;
-    font-size: 6vw;
+    font-size: 5vw;
     text-align: center;
     color: $primary-text;
     text-shadow: 2px 2px 4px #3b2a32;
@@ -23,10 +21,6 @@
   .sub-title{
     font-size: 3vw;
     text-align: center;
-    // background: -webkit-linear-gradient( $hot-pink, $purple);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
-    // text-shadow: 2px 2px 4px #3b2a32;
     color: $hot-pink;
   }
 
@@ -36,6 +30,7 @@
     top: 50%;
     transform: translateY(-50%);
   }
+
   @media only screen and (max-width: 700px){
     .vertical-align-middle{
       left: 10%;
@@ -49,13 +44,7 @@
     }
   }
 
-
-  .ltNav{
-    color: $primary-text;
-  }
   // Night Day Styles
-
-
 
   .switch-on {
     background-size: 300% 100%;
@@ -74,25 +63,12 @@
         transition: all .4s ease-in-out;
   }
 
-  .bg-light {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
-    transition: background-color .5s ease;
-  }
-
-
-
-  .homeBG {
-    background-color: white;
-    background-image: url('../imgs/whitewall.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-  }
-}
+  // .bg-light {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100vw;
+  //   height: 100vh;
+  //   z-index: 0;
+  //   transition: background-color .5s ease;
+  // }

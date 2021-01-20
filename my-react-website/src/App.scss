@@ -4,6 +4,10 @@
 // Global
 @import "src/scss/_gobalstyle.scss";
 
+// Themes
+@import "src/scss/_darkmode.scss";
+@import "src/scss/_lightmode.scss";
+
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
