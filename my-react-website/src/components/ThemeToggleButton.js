@@ -1,5 +1,5 @@
 import React from "react";
-// import { faSun } from '@fortawesome/free-solid-svg-icons';
+import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -33,15 +33,18 @@ const ThemeToggleButton = () => {
       localStorage.setItem("theme", "dark")
       theme = darkMode
     }
+    return
   }
+
 
     return (
 
       <button
+        aria-label="Night day toggle button"
         className={theme === "dark" ? clickedClass : ""}
         id="darkMode"
         onClick={e => switchTheme(e)}>
-       <FontAwesomeIcon icon={faMoon} />
+         { theme === "dark" ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
       </button>
 
     )
