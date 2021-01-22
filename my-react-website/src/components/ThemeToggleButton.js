@@ -33,8 +33,9 @@ const ThemeToggleButton = () => {
       localStorage.setItem("theme", "dark")
       theme = darkMode
     }
-    return
+    console.log(theme);
   }
+
 
 
     return (
@@ -44,8 +45,9 @@ const ThemeToggleButton = () => {
         className={theme === "dark" ? clickedClass : ""}
         id="darkMode"
         onClick={e => switchTheme(e)}>
-         { theme === "dark" ? <FontAwesomeIcon icon={faMoon} /> : <FontAwesomeIcon icon={faSun} />}
+        <FontAwesomeIcon  icon={theme === lightMode ? faMoon : faSun} />
       </button>
+
 
     )
 
