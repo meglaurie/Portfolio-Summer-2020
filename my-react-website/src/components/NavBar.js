@@ -4,7 +4,7 @@ import NavToggleButton from './SideMenu/NavToggle';
 import ThemeToggleButton from './ThemeToggleButton';
 
 const NavBar = props => (
-  <nav >
+  <nav > 
     <div>
       <NavToggleButton click={props.menuClickHandler}/>
     </div>
