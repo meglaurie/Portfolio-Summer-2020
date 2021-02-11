@@ -1,43 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76841e445325a163a18305b7b5bf338a",
+    "revision": "140b60bc9a6a3cc34f0d37ba160692b7",
     "url": "/index.html"
   },
   {
-    "revision": "5c9201fb6feaa9e1cece",
+    "revision": "c0552b48060e27b05000",
     "url": "/static/css/main.97ebbf25.chunk.css"
   },
   {
-    "revision": "90a03f528d34c84b5309",
-    "url": "/static/js/2.729d4617.chunk.js"
+    "revision": "4c33e18a3996d41a4bec",
+    "url": "/static/js/2.20dfe8e2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.729d4617.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.20dfe8e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c9201fb6feaa9e1cece",
-    "url": "/static/js/main.4a9cb11e.chunk.js"
+    "revision": "c0552b48060e27b05000",
+    "url": "/static/js/main.ee3795bd.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
     "url": "/static/js/runtime-main.b9f3608b.js"
   },
   {
-    "revision": "47ef7f126752bc9b264d6237158968d3",
-    "url": "/static/media/BubbleTea.47ef7f12.png"
-  },
-  {
-    "revision": "29d8fdf5304ae4267a362a9e0c61a7ec",
-    "url": "/static/media/HelloThereBatmanReturns.29d8fdf5.gif"
-  },
-  {
     "revision": "394439f1c72dc4c3344cda1258c04c00",
     "url": "/static/media/Kiki's-Delivery-App.394439f1.png"
-  },
-  {
-    "revision": "7774cbf6f6d684b8e3bce370141b6160",
-    "url": "/static/media/Luna-CSS.7774cbf6.png"
   },
   {
     "revision": "410385263e083debd71e795bf3e49227",
@@ -52,16 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Portfolio-2019.996b0bb5.png"
   },
   {
-    "revision": "5c07a540a3f9adf1358370a1f90461c0",
-    "url": "/static/media/SailorMoonIconSet.5c07a540.png"
-  },
-  {
     "revision": "0aada40b769157eb83cf9a64280a9e7f",
     "url": "/static/media/SingleDivCrayon.0aada40b.png"
-  },
-  {
-    "revision": "323538f392e581d1dc2eab778cccb8f8",
-    "url": "/static/media/VectorWorkspace.323538f3.png"
   },
   {
     "revision": "e2996b9f256e3c5fdf38aeb47acd2147",

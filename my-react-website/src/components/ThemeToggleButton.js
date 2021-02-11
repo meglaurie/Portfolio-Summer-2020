@@ -1,50 +1,45 @@
-import React from "react";
+import React, {useState, useEffect}from "react";
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
+const lightMode = 'light'
+const darkMode = 'dark'
+const THEME = 'theme'
+
 const ThemeToggleButton = () => {
-
-  let clickedClass = "clicked"
   const body = document.body
-  const lightMode = "light"
-  const darkMode = "dark"
-  let theme
 
-  if (localStorage) {
-    theme = localStorage.getItem("theme")
-  }
-  if (theme === lightMode || theme === darkMode) {
-    body.classList.add(theme)
-  } else {
-    body.classList.add(lightMode)
-  }
+  const [theme, setTheme] = useState(localStorage.getItem(THEME) || lightMode)
 
-  const switchTheme = e => {
+
+  useEffect(() => {
+    if (theme) {
+      localStorage.setItem(THEME, theme)
+      body.classList.add(theme)
+    }
+    // eslint-disable-next-line
+  }, [theme])
+
+  const switchTheme = () => {
     if (theme === darkMode) {
       body.classList.replace(darkMode, lightMode)
-      e.target.classList.remove(clickedClass)
-      localStorage.setItem("theme", "light")
-      theme = lightMode
+      setTheme(lightMode)
     } else {
       body.classList.replace(lightMode, darkMode)
-      e.target.classList.add(clickedClass)
-      localStorage.setItem("theme", "dark")
-      theme = darkMode
+      setTheme(darkMode)
     }
   }
-    return (
 
-      <button
-        aria-label="Night day toggle button"
-        className={theme === "dark" ? clickedClass : ""}
-        id="darkMode"
-        onClick={e => switchTheme(e)}>
-        <FontAwesomeIcon icon={theme === "light" ? faSun : faMoon} />
-      </button>
-    )
-
-
+  return (
+    <button
+      aria-label="Night day toggle button"
+      id="darkMode"
+      onClick={switchTheme}
+    >
+      <FontAwesomeIcon icon={theme === 'light' ? faSun : faMoon} />
+    </button>
+  )
 }
 export default ThemeToggleButton;

@@ -23,7 +23,7 @@ const AboutPage = () => (
           This portfolio was built using React.js, Node.js, NPM, custom CSS/CSS3, semantic HTML5, and SASS. I have been carefully going through W3C/ARIA/WCAG recommendations to make this site as accessible as possible. This website is currently under construction and I am still working out a few bugs. Thank you for you patience!
         </p>
         <p>
-          I have almost 4 years of experience working with:
+          Skills:
         </p>
         <div className="grid-container">
           <div className="grid-item-text">
@@ -58,7 +58,6 @@ const AboutPage = () => (
             </ul>
           </div>
         </div>
-        <p>I thrive in roles that allow me to utilize both my design and development skills. I am currently seeking new opportunities in the area of Frontend and UI Development. To see some of my work and the projects that I am currently working on please check out my Github, Codepen, and Dribbble.</p>
       </section>
       <section className="icon-container">
           <a className="fa-icon about-icon" target="_blank" rel="noopener noreferrer" href="https://github.com/meglaurie"><FontAwesomeIcon icon={faGithubAlt} /></a>
