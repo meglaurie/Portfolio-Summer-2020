@@ -1,6 +1,6 @@
 import React from 'react';
 import { faGithubAlt, faDribbble, faFigma, faCodepen } from '@fortawesome/free-brands-svg-icons';
-
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProjectList = ({ projects }) => (
@@ -15,6 +15,7 @@ const ProjectList = ({ projects }) => (
           <a className={projects.dribbble === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Dribbble external link" href={projects.drbbble}><FontAwesomeIcon icon={faDribbble} /></a>
           <a className={projects.figma === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Figma external link" href={projects.figma}><FontAwesomeIcon icon={faFigma} /></a>
           <a className={projects.codepen === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="Codepen external link" href={projects.codepen}><FontAwesomeIcon icon={faCodepen} /></a>
+          <a className={projects.link === '' ? "display-none" : "fa-icon project-icon"} target="_blank" rel="noopener noreferrer" aria-label="external link" href={projects.link}><FontAwesomeIcon icon={faLink} /></a>
         </div>
     </div>
   ))}

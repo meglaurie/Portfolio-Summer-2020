@@ -1,29 +1,31 @@
 const projects = [
   {
       name: 'Project 1',
-      title: 'Pokemon API App',
-      image: require('../imgs/pokemon.png'),
-      alt: 'poke ball',
-      github: 'https://github.com/meglaurie/Pokemon-API-App',
+      title: 'Comic Book Photobooth',
+      image: require('../imgs/coming-soon.png'),
+      alt: 'Comic Book Photo booth',
+      github: 'https://github.com/meglaurie/Frontend-coding-challenge',
       dribbble: '',
       figma: '',
       codepen: '',
+      link: '',
       content: [
-          `This app was built with React and the Poke API. It is not yet complete, but you can follow my progess on Github.`,
+          `Upload and image and text to see the halftone comic style photo effect. Made with Vanilla JS, HTML, and CSS.`,
       ]
-  },{
-      name: 'Project 2',
-      title: 'Single Div Crayon',
-      image: require('../imgs/SingleDivCrayon.png'),
-      alt: 'poke ball',
-      github: 'https://github.com/meglaurie/CSS-Excercises/tree/master/single-div-crayon',
-      dribbble: '',
-      figma: '',
-      codepen: 'https://codepen.io/mlaur568/full/zYBwXXP',
-      content: [
-          `Crayon made with a single <div> and CSS gradients.`,
-      ]
-  },
+   },
+//   ,{
+//       name: 'Project 2',
+//       title: 'Single Div Crayon',
+//       image: require('../imgs/SingleDivCrayon.png'),
+//       alt: 'poke ball',
+//       github: 'https://github.com/meglaurie/CSS-Excercises/tree/master/single-div-crayon',
+//       dribbble: '',
+//       figma: '',
+//       codepen: 'https://codepen.io/mlaur568/full/zYBwXXP',
+//       content: [
+//           `Crayon made with a single <div> and CSS gradients.`,
+//       ]
+//   },
   // {
   //     name: 'Project 3',
   //     title: 'Hello There',
@@ -50,16 +52,31 @@ const projects = [
   //     ]
   // },
   {
-        name: 'Project 5',
-        title: 'News Feed',
+        name: 'Project 2',
+        title: 'Weather App',
+        image: require('../imgs/weatherAppScreenShot.png'),
+        alt: 'weataher app',
+        github: 'https://github.com/meglaurie/weatherApp',
+        dribbble: '',
+        figma: '',
+        codepen: '',
+        link: 'http://meganlaurie.ca/weatherApp/root/index.html',
+        content: [
+            `This web app was an internal office project made for a digital marketing agency with offices all over the world to be displayed on office TVs. It uses the open weather API to get weather data for every city with an office and displays the weather to the UI in a cycle that also shows an image for each city. Made with Vanilla JS, HTML, and CSS.`,
+        ]
+    },
+    {
+        name: 'Project 3',
+        title: 'JavaScript Drums',
         image: require('../imgs/coming-soon.png'),
-        alt: 'coming soon',
+        alt: 'Drum Hero',
         github: '',
         dribbble: '',
         figma: '',
         codepen: '',
+        link: '',
         content: [
-            ``,
+            `This app was built for...`,
         ]
     },
 
