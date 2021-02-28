@@ -24,6 +24,19 @@ const designProjects = [
             `Custom logo created for gaming team. Optimized for printing on merchandise.`,
         ]
     },
+    {
+        name: 'Project 3',
+        title: 'Yoga Studio Website',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'Yoga studio website.',
+        codepen: '',
+        dribbble: '',
+        figma: '',
+        github: '',
+        content: [
+            `Custom website design created for a Freelance project.`,
+        ]
+    },
     // {
     //     name: 'Project 3',
     //     title: 'Bubble Tea Icon Set',

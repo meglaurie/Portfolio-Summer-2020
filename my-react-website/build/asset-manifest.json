@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.97ebbf25.chunk.css",
-    "main.js": "/static/js/main.ee3795bd.chunk.js",
-    "main.js.map": "/static/js/main.ee3795bd.chunk.js.map",
+    "main.css": "/static/css/main.d82fe4f7.chunk.css",
+    "main.js": "/static/js/main.8c9d73fc.chunk.js",
+    "main.js.map": "/static/js/main.8c9d73fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
-    "static/js/2.20dfe8e2.chunk.js": "/static/js/2.20dfe8e2.chunk.js",
-    "static/js/2.20dfe8e2.chunk.js.map": "/static/js/2.20dfe8e2.chunk.js.map",
+    "static/js/2.26b91c00.chunk.js": "/static/js/2.26b91c00.chunk.js",
+    "static/js/2.26b91c00.chunk.js.map": "/static/js/2.26b91c00.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f872acdf8b7b584197a4490fbb09ec35.js": "/precache-manifest.f872acdf8b7b584197a4490fbb09ec35.js",
+    "precache-manifest.515439ceae2e7e110a01561f861361c7.js": "/precache-manifest.515439ceae2e7e110a01561f861361c7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.97ebbf25.chunk.css.map": "/static/css/main.97ebbf25.chunk.css.map",
-    "static/js/2.20dfe8e2.chunk.js.LICENSE.txt": "/static/js/2.20dfe8e2.chunk.js.LICENSE.txt",
+    "static/css/main.d82fe4f7.chunk.css.map": "/static/css/main.d82fe4f7.chunk.css.map",
+    "static/js/2.26b91c00.chunk.js.LICENSE.txt": "/static/js/2.26b91c00.chunk.js.LICENSE.txt",
     "static/media/Kiki's-Delivery-App.png": "/static/media/Kiki's-Delivery-App.394439f1.png",
     "static/media/Portfolio-2017.png": "/static/media/Portfolio-2017.41038526.png",
     "static/media/Portfolio-2018.png": "/static/media/Portfolio-2018.805616b5.png",
     "static/media/Portfolio-2019.png": "/static/media/Portfolio-2019.996b0bb5.png",
-    "static/media/SingleDivCrayon.png": "/static/media/SingleDivCrayon.0aada40b.png",
     "static/media/YE3LogoArtboard.png": "/static/media/YE3LogoArtboard.e2996b9f.png",
     "static/media/coming-soon.png": "/static/media/coming-soon.401d1da7.png",
+    "static/media/news-feed-screenshot.png": "/static/media/news-feed-screenshot.75c6fe84.png",
     "static/media/photo.jpg": "/static/media/photo.45d1fae4.jpg",
-    "static/media/pokemon.png": "/static/media/pokemon.aeccf9e3.png",
-    "static/media/App.scss": "/static/media/whitewall.03923e52.png"
+    "static/media/App.scss": "/static/media/whitewall.03923e52.png",
+    "static/media/weatherAppScreenShot.png": "/static/media/weatherAppScreenShot.a947aa4a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9f3608b.js",
-    "static/js/2.20dfe8e2.chunk.js",
-    "static/css/main.97ebbf25.chunk.css",
-    "static/js/main.ee3795bd.chunk.js"
+    "static/js/2.26b91c00.chunk.js",
+    "static/css/main.d82fe4f7.chunk.css",
+    "static/js/main.8c9d73fc.chunk.js"
   ]
 }

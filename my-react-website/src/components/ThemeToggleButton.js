@@ -18,6 +18,7 @@ const ThemeToggleButton = () => {
     if (theme) {
       localStorage.setItem(THEME, theme)
       body.classList.add(theme)
+     
     }
     // eslint-disable-next-line
   }, [theme])
@@ -26,9 +27,11 @@ const ThemeToggleButton = () => {
     if (theme === darkMode) {
       body.classList.replace(darkMode, lightMode)
       setTheme(lightMode)
+      
     } else {
       body.classList.replace(lightMode, darkMode)
       setTheme(darkMode)
+    
     }
   }
 

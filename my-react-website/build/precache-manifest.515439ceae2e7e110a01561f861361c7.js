@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "140b60bc9a6a3cc34f0d37ba160692b7",
+    "revision": "fb10dfaaf85c759a2b1c6b336ce8db23",
     "url": "/index.html"
   },
   {
-    "revision": "c0552b48060e27b05000",
-    "url": "/static/css/main.97ebbf25.chunk.css"
+    "revision": "80b6d5baee97c61f782b",
+    "url": "/static/css/main.d82fe4f7.chunk.css"
   },
   {
-    "revision": "4c33e18a3996d41a4bec",
-    "url": "/static/js/2.20dfe8e2.chunk.js"
+    "revision": "3b084ac00729d399af0d",
+    "url": "/static/js/2.26b91c00.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.20dfe8e2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.26b91c00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c0552b48060e27b05000",
-    "url": "/static/js/main.ee3795bd.chunk.js"
+    "revision": "80b6d5baee97c61f782b",
+    "url": "/static/js/main.8c9d73fc.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Portfolio-2019.996b0bb5.png"
   },
   {
-    "revision": "0aada40b769157eb83cf9a64280a9e7f",
-    "url": "/static/media/SingleDivCrayon.0aada40b.png"
-  },
-  {
     "revision": "e2996b9f256e3c5fdf38aeb47acd2147",
     "url": "/static/media/YE3LogoArtboard.e2996b9f.png"
   },
@@ -52,16 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/coming-soon.401d1da7.png"
   },
   {
+    "revision": "75c6fe8441bf6571c518cee6c6861e31",
+    "url": "/static/media/news-feed-screenshot.75c6fe84.png"
+  },
+  {
     "revision": "45d1fae4aaa79e8b161e828df8328650",
     "url": "/static/media/photo.45d1fae4.jpg"
   },
   {
-    "revision": "aeccf9e331f9c29806887f5cbb0020c7",
-    "url": "/static/media/pokemon.aeccf9e3.png"
-  },
-  {
     "revision": "fb160e18208903fc076e1b28f2e71a06",
     "url": "/static/media/purpleneon.fb160e18.png"
+  },
+  {
+    "revision": "a947aa4a8fb797adbd5c02832b415311",
+    "url": "/static/media/weatherAppScreenShot.a947aa4a.png"
   },
   {
     "revision": "03923e52c5ebf6607cb68a8f8baf67fe",
