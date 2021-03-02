@@ -4,13 +4,13 @@ const projects = [
         title: 'To Do Terrarium',
         image: require('../imgs/todoAppScreenShot.png'),
         alt: 'To Do Terrarium',
-        github: 'https://github.com/meglaurie/Frontend-coding-challenge',
+        github: 'https://github.com/meglaurie/To-Do-Terrarium',
         dribbble: '',
         figma: '',
         codepen: '',
-        link: 'https://meglaurie.github.io/Frontend-coding-challenge/',
+        link: 'http://meganlaurie.ca/To-Do-Terrarium/index.html',
         content: [
-            `Responsive web app made with Vanilla JS, CSS3, and custom SVGs made in Sketch`,
+            `Responsive web app made with Vanilla JS, CSS3, and custom SVGs made in Sketch.`,
         ]
      },{
       name: 'Project 2',
