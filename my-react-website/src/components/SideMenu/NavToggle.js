@@ -8,7 +8,7 @@ const NavToggleButton = props => (
       <FontAwesomeIcon onClick={props.click} className="res-menu" icon={faBars} />
 
   </button>
-
+ 
 );
 
 export default NavToggleButton;

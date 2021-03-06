@@ -39,8 +39,7 @@ class App extends Component {
   backDropClickHandler = () => {
     this.setState({sideMenuOpen: false})
   }
-
-
+  
 render(){
   let backdrop = null;
 
@@ -54,7 +53,7 @@ render(){
   <Router>
       <div className="App">
       <NavBar menuClickHandler = {this.sideMenuToggleClickHandler}/>
-      <SideMenu show={this.state.sideMenuOpen} />
+      <SideMenu show={this.state.sideMenuOpen} click={this.backDropClickHandler}/>
       {backdrop}
       <Route render ={({location}) => (
         <TransitionGroup>
