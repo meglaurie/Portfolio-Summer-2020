@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.b8505ba7.chunk.css",
-    "main.js": "/static/js/main.19b5bc09.chunk.js",
-    "main.js.map": "/static/js/main.19b5bc09.chunk.js.map",
+    "main.js": "/static/js/main.179400bb.chunk.js",
+    "main.js.map": "/static/js/main.179400bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9f3608b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9f3608b.js.map",
     "static/js/2.46c07365.chunk.js": "/static/js/2.46c07365.chunk.js",
     "static/js/2.46c07365.chunk.js.map": "/static/js/2.46c07365.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5c64fd9c2506390edae7e036f6d805fe.js": "/precache-manifest.5c64fd9c2506390edae7e036f6d805fe.js",
+    "precache-manifest.b2c080b7003c52aa606dd89d6015051b.js": "/precache-manifest.b2c080b7003c52aa606dd89d6015051b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b8505ba7.chunk.css.map": "/static/css/main.b8505ba7.chunk.css.map",
     "static/js/2.46c07365.chunk.js.LICENSE.txt": "/static/js/2.46c07365.chunk.js.LICENSE.txt",
     "static/media/Kiki's-Delivery-App.png": "/static/media/Kiki's-Delivery-App.394439f1.png",
+    "static/media/NewsFeedscreenshot.png": "/static/media/NewsFeedscreenshot.6c254adc.png",
     "static/media/Portfolio-2017.png": "/static/media/Portfolio-2017.41038526.png",
     "static/media/Portfolio-2018.png": "/static/media/Portfolio-2018.805616b5.png",
     "static/media/Portfolio-2019.png": "/static/media/Portfolio-2019.996b0bb5.png",
     "static/media/YE3LogoArtboard.png": "/static/media/YE3LogoArtboard.e2996b9f.png",
     "static/media/coming-soon.png": "/static/media/coming-soon.401d1da7.png",
-    "static/media/news-feed-screenshot.png": "/static/media/news-feed-screenshot.75c6fe84.png",
     "static/media/photo.jpg": "/static/media/photo.45d1fae4.jpg",
     "static/media/App.scss": "/static/media/whitewall.03923e52.png",
     "static/media/todoAppScreenShot.png": "/static/media/todoAppScreenShot.e692c3e2.png",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.b9f3608b.js",
     "static/js/2.46c07365.chunk.js",
     "static/css/main.b8505ba7.chunk.css",
-    "static/js/main.19b5bc09.chunk.js"
+    "static/js/main.179400bb.chunk.js"
   ]
 }

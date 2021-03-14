@@ -15,7 +15,7 @@ const projects = [
      },{
       name: 'Project 2',
       title: 'News Feed',
-      image: require('../imgs/news-feed-screenshot.png'),
+      image: require('../imgs/NewsFeedscreenshot.png'),
       alt: 'News feed',
       github: 'https://github.com/meglaurie/Frontend-coding-challenge',
       dribbble: '',

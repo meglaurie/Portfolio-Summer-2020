@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0db0ccd535f049e36f9e48dbd50be0a3",
+    "revision": "9c6ff0bcafe6b5547cee635e2080317b",
     "url": "/index.html"
   },
   {
-    "revision": "ab8a3bfe64a3854c55da",
+    "revision": "84e1a2ead69c3b162abe",
     "url": "/static/css/main.b8505ba7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.46c07365.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab8a3bfe64a3854c55da",
-    "url": "/static/js/main.19b5bc09.chunk.js"
+    "revision": "84e1a2ead69c3b162abe",
+    "url": "/static/js/main.179400bb.chunk.js"
   },
   {
     "revision": "40e62b8a60612a764242",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "394439f1c72dc4c3344cda1258c04c00",
     "url": "/static/media/Kiki's-Delivery-App.394439f1.png"
+  },
+  {
+    "revision": "6c254adc3c0f16d300ee2402064ce183",
+    "url": "/static/media/NewsFeedscreenshot.6c254adc.png"
   },
   {
     "revision": "410385263e083debd71e795bf3e49227",
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "401d1da7987e56e2f665c49f27aa8b5d",
     "url": "/static/media/coming-soon.401d1da7.png"
-  },
-  {
-    "revision": "75c6fe8441bf6571c518cee6c6861e31",
-    "url": "/static/media/news-feed-screenshot.75c6fe84.png"
   },
   {
     "revision": "45d1fae4aaa79e8b161e828df8328650",
