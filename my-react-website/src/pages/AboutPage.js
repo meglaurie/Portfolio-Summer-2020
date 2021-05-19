@@ -34,7 +34,6 @@ const AboutPage = () => (
               <li>SASS/LESS/PostCSS</li>
               <li>JavaScript</li>
               <li>React</li>
-              <li>JQuery</li>
               <li>Bootstrap</li>
               <li>Node</li>
               <li>NPM</li>
@@ -46,9 +45,7 @@ const AboutPage = () => (
             <h4>Design</h4>
             <ul>
               <li>Information architecture</li>
-              <li>UI design</li>
-              <li>UX testing</li>
-              <li>responsive web design</li>
+              <li>Responsive web design</li>
               <li>Sketch</li>
               <li>InVision</li>
               <li>Figma</li>

@@ -1,5 +1,31 @@
 const projects = [
     {
+        name: 'Project 5',
+        title: 'Best Self Wellness App',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'Drum Hero',
+        github: '',
+        dribbble: '',
+        figma: '',
+        codepen: '',
+        link: '',
+        content: [
+            ``,
+        ]
+    },{
+        name: 'Project 4',
+        title: 'Technically Creative E-commerce Store',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'Drum Hero',
+        github: '',
+        dribbble: '',
+        figma: '',
+        codepen: '',
+        link: '',
+        content: [
+            ``,
+        ]
+    },{
         name: 'Project 1',
         title: 'To Do Terrarium',
         image: require('../imgs/todoAppScreenShot.png'),
@@ -42,7 +68,7 @@ const projects = [
     },
     {
         name: 'Project 4',
-        title: 'JavaScript Drums',
+        title: 'JavaScript Drum Hero',
         image: require('../imgs/coming-soon.png'),
         alt: 'Drum Hero',
         github: '',
@@ -51,7 +77,7 @@ const projects = [
         codepen: '',
         link: '',
         content: [
-            ``,
+            `Inspired by Guitar Hero and built as part of a program to educate children about music; JavaScript Drum Hero was on display at Music Studio Bell in Calgary Alberta from September 2017 through 2018.`,
         ]
     },
 

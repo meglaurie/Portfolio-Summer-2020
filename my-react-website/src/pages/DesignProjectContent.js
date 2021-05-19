@@ -1,19 +1,20 @@
 const designProjects = [
+//   {
+//       name: 'Project 1',
+//       title: "Kiki's Delivery App",
+//       image: require("../imgs/Kiki's-Delivery-App.png"),
+//       alt: 'Purple background, clouds with moon, girl and cat on a broom stick.',
+//       github: 'https://github.com/meglaurie/Kikis-Delivery-App',
+//       dribbble: '',
+//       figma: "https://www.figma.com/proto/6mEKCIUnofMLkgSiHKaydH/Kiki's-Delivery-App?node-id=24%3A2&scaling=min-zoom",
+//       codepen: '',
+//       content: [
+//           `This app is being designed in Figma and built on React. It is currenlty under construction, but you can follow my progress through the links.`,
+//       ]
+//   },
   {
-      name: 'Project 1',
-      title: "Kiki's Delivery App",
-      image: require("../imgs/Kiki's-Delivery-App.png"),
-      alt: 'Purple background, clouds with moon, girl and cat on a broom stick.',
-      github: 'https://github.com/meglaurie/Kikis-Delivery-App',
-      dribbble: '',
-      figma: "https://www.figma.com/proto/6mEKCIUnofMLkgSiHKaydH/Kiki's-Delivery-App?node-id=24%3A2&scaling=min-zoom",
-      codepen: '',
-      content: [
-          `This app is being designed in Figma and built on React. It is currenlty under construction, but you can follow my progress through the links.`,
-      ]
-  },{
         name: 'Project 2',
-        title: 'Freelance Logo Design',
+        title: 'Ye3 Logo Design',
         image: require('../imgs/YE3LogoArtboard.png'),
         alt: 'Icon set with 12 different kinds of bubble tea.',
         codepen: '',
@@ -26,7 +27,7 @@ const designProjects = [
     },
     {
         name: 'Project 3',
-        title: 'Yoga Studio Website',
+        title: 'Inner Wellness Yoga Studio',
         image: require('../imgs/coming-soon.png'),
         alt: 'Yoga studio website.',
         codepen: '',
@@ -37,31 +38,33 @@ const designProjects = [
             `Custom website design created for a Freelance project.`,
         ]
     },
-    // {
-    //     name: 'Project 3',
-    //     title: 'Bubble Tea Icon Set',
-    //     image: require('../imgs/BubbleTea.png'),
-    //     alt: 'Icon set with 12 different kinds of bubble tea.',
-    //     codepen: '',
-    //     dribbble: 'https://dribbble.com/shots/13942532-BubbleTea-Icon-Set',
-    //     figma: '',
-    //     github: 'https://github.com/meglaurie/SVG-Bubble-tea-icons',
-    //     content: [
-    //         `PNG and SVG icon set made using Sketch. Available for free download on Github.`,
-    //     ]
-    // },  {
-    //     name: 'Project 4',
-    //     title: 'Salior Moon Icon Set',
-    //     image: require('../imgs/SailorMoonIconSet.png'),
-    //     alt: 'Hello There neon sign from Batman returns',
-    //     codepen: '',
-    //     dribbble: '',
-    //     figma: '',
-    //     github: '',
-    //     content: [
-    //         `Icon set made in Sketch available in SVG and PNG.`,
-    //     ]
-    // },    {
+    {
+        name: 'Project 4',
+        title: 'Technically Creative',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'Small business website ',
+        codepen: '',
+        dribbble: '',
+        figma: '',
+        github: '',
+        content: [
+            `Technically creative is my online Etsy store. I use my own designs and have them made into products that make great gift ideas for cute creative people`,
+        ]
+    }, 
+    {
+        name: 'Project 4',
+        title: 'Best Self App Design',
+        image: require('../imgs/coming-soon.png'),
+        alt: 'best self app',
+        codepen: '',
+        dribbble: '',
+        figma: '',
+        github: '',
+        content: [
+            `Design for Best self wellness app includes user stories, user flows, wireframs, and a highfidelity prototype. `,
+        ]
+    },    
+    //{
     //     name: 'Project 5',
     //     title: 'Vector Workspace',
     //     image: require('../imgs/VectorWorkspace.png'),
