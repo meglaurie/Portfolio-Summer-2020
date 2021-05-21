@@ -12,6 +12,19 @@ const designProjects = [
 //           `This app is being designed in Figma and built on React. It is currenlty under construction, but you can follow my progress through the links.`,
 //       ]
 //   },
+{
+    name: 'Project 3',
+    title: 'Inner Wellness Yoga Studio',
+    image: require('../imgs/InnerWellnessScreenShot.png'),
+    alt: 'Yoga studio website.',
+    codepen: '',
+    dribbble: '',
+    figma: 'https://www.figma.com/file/ZhE6f5XNbvu5Fz0l7yGpC5/Inner-Wellness-Yoga?node-id=0%3A1',
+    github: '',
+    content: [
+        `High fidelity prototype for freelance website design project. Work included branding, copy, logo design, and accessable web design for desktop and mobile.`,
+    ]
+},
   {
         name: 'Project 2',
         title: 'Ye3 Logo Design',
@@ -22,20 +35,7 @@ const designProjects = [
         figma: '',
         github: '',
         content: [
-            `Custom logo created for gaming team. Optimized for printing on merchandise.`,
-        ]
-    },
-    {
-        name: 'Project 3',
-        title: 'Inner Wellness Yoga Studio',
-        image: require('../imgs/coming-soon.png'),
-        alt: 'Yoga studio website.',
-        codepen: '',
-        dribbble: '',
-        figma: '',
-        github: '',
-        content: [
-            `Custom website design created for a Freelance project.`,
+            `Custom logo created for online gaming team. Optimized for printing on merchandise.`,
         ]
     },
     {
