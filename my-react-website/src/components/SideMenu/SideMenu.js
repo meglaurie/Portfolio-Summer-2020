@@ -18,11 +18,9 @@ const SideMenu = props => {
           <Link to="/" onClick={props.click}>Home</Link>
         </li>
         <li className="mobile-li">
-          <Link to="/project-list" onClick={props.click}>Development</Link>
+          <Link to="/project-list" onClick={props.click}>Work</Link>
         </li>
-        <li className="mobile-li">
-          <Link to="/design-project-list" onClick={props.click}>Design</Link>
-        </li>
+      
         <li className="mobile-li">
           <Link to="/about" onClick={props.click} >About</Link>
         </li>

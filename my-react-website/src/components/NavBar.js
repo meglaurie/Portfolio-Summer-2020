@@ -15,11 +15,9 @@ const NavBar = props => (
           <Link to="/">Home</Link>
         </li>
         <li className="desktop-li">
-          <Link to="/project-list">Development</Link>
+          <Link to="/project-list">Work</Link>
         </li>
-        <li className="desktop-li">
-          <Link to="/design-project-list">Design</Link>
-        </li>
+        
         <li className="desktop-li">
           <Link to="/about">About</Link>
         </li>
